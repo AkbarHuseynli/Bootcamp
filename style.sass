@@ -1,0 +1,1942 @@
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+$yellow_color: #FFC700
+@font-face
+    font-family: font_1
+    src: url(fonts/Montserrat-Medium.ttf)
+@font-face 
+    font-family: font_2
+    src: url(fonts/mr_kindlyjasmineg.otf)
+@font-face
+    font-family: MarkoOne
+    src: url(fonts/MarkoOne-Regular.ttf)
+.pageBtn
+    width: 230px
+    height: 50px
+    border-radius: 60px
+    border: 0
+    background: linear-gradient(92.71deg, #0499DD 0%, #17C1BC 100%)
+    font-family: font_1
+    font-weight: bold
+    font-style: normal
+    font-size: 14px
+    line-height: 17.07px
+    color: white
+    display: flex
+    justify-content: center
+    align-items: center
+    position: relative
+    z-index: 1
+.pageBtn::before
+                    content: ''
+                    position: absolute
+                    border-radius: 60px
+                    height: 100%
+                    width: 0
+                    background-color: darken(#0499DD,5%)
+                    transition: all 0.3s
+                    z-index: -1
+.pageBtn:hover.pageBtn::before
+                    width: 100%
+.Btntext
+    display: flex
+    justify-content: flex-end
+    align-items: flex-end
+    color: white
+    text-decoration: none
+.Btntext:hover
+    color: white
+    text-decoration: none
+.Btnicon
+    margin-left: 5px
+    margin-bottom: 3.5px
+    width: 14px
+.padding-x
+    padding: 0% 9%
+
+.topdiv
+    width: 100%
+    height: 902px
+    background-image: url("images/Rectangle 1.png")
+    position: relative
+    background-size: 1440px 789px
+    background-position-x: center
+    background-repeat: no-repeat
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    overflow: hidden
+    .navigation
+        width: 100%
+        position: relative
+        top: 26px
+        height: 515px
+        box-sizing: border-box
+        display: flex
+        flex-direction: column
+
+        .navbar1
+            width: 100%
+            position: relative
+            height: 57px
+            display: flex
+            justify-content: space-between
+            align-items: center
+            .logo
+                width: 40px
+                height: 100%
+            .logo:hover
+                filter: brightness(50%)
+            .menubtn
+                display: none
+            // .navbar-collapse
+            //     display: none
+            .menu
+                height: 17px
+                width: 303px
+                .menubar
+                    display: flex
+                    justify-content: space-between
+                    box-sizing: border-box
+                    justify-content: space-between
+                    .menulist
+                        list-style-type: none
+                        .menulink:hover
+                            filter: brightness(150%)
+                        .menulink
+                            text-decoration: none
+                            font-style: normal
+                            font-family: font_1
+                            font-weight: 500
+                            line-height: 17.07px
+                            font-size: 14px
+                            color: #fff
+                        .Clicked
+                            color: $yellow_color
+        .under_navbar
+            width: 50.2%
+            height: 194px
+            position: relative
+            margin-top: 152px
+            .heading01
+                width: 592px
+                height: 88px
+                font-family: font_1
+                font-weight: 700
+                font-style: normal
+                font-size: 72px
+                line-height: 87.77px
+                color: #fff
+                fill: solid
+            .heading02
+                width: 723px
+                height: 90px
+                img
+                    width: 100%
+                    height: 100%
+                    font-family: font_1
+                    font-style: normal
+                    font-size: 96px
+                    font-weight: 900
+                    line-height: 117.02px
+                    color: transparent
+                    -webkit-text-stroke: 0.1px white
+                    -webkit-text-fill-color: transparent
+            .text03
+                width: 151px
+                height: 64px
+                position: absolute
+                top: 50px
+                left: 531px
+                font-family: font_2
+                font-size: 64px
+                font-style: normal
+                font-weight: 400
+                line-height: 64px
+                color: #FFC700
+        .topBtn
+            margin-top: 60px
+        .smlogos_top
+            margin-right: 9%
+            position: absolute
+            right: 0
+            top: 307px
+            height: 110px
+            width: 32px
+            display: flex
+            flex-direction: column
+            justify-content: space-between
+            cursor: pointer
+            img:hover
+                filter: brightness(80%)
+
+    .bottomcards
+        position: absolute
+        top: 674px
+        right: 0
+        display: flex
+        height: 227px
+        width: 615px
+        overflow: hidden
+        .vcard
+            display: flex
+            justify-content: center
+            align-items: center
+            width: 360px
+            height: 227px
+            margin-right: 20px
+            .play
+                position: absolute
+                cursor: pointer
+            .play:hover
+                filter: brightness(150%)
+        .imgcard
+            width: 360px
+            height: 227px
+              
+.Section4
+    width: 100%
+    height: 591px
+    padding: 0px 9%
+    margin-top: 150px
+    box-sizing: border-box
+    display: flex
+    flex-direction: column
+    .heading04
+        margin-bottom: 90px
+        font-family: fon_1
+        font-weight: 700
+        font-style: normal
+        font-size: 24px
+        line-height: 29.26px
+        color: #0499DD
+    .cards04
+        width: 100%
+        height: 368px
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between
+        .cardx
+            width: 49%
+            height: 134px
+            display: flex
+            justify-content: flex-start
+            box-sizing: border-box
+            img
+                width: 75px
+                height: 74px
+                margin-right: 20px
+            #img04
+                height: 66px
+
+            .text04head
+                font-family: font_1
+                font-weight: bold
+                font-style: normal
+                font-size: 18px
+                line-height: 21.94px
+                color: #0499DD
+                margin-bottom: 10px
+            .text04body
+                height: 102px
+                font-family: font_1
+                font-weight: 500
+                font-style: normal
+                font-size: 14px
+                line-height: 17.07px
+                color: black
+    .footer04
+        width: 100%
+        height: 104px
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        align-items: center
+        .footertext04
+            font-family: font_1
+            font-weight: 500
+            font-style: normal
+            font-size: 14px
+            line-height: 17.07px
+            color: black
+            text-align: center
+            height: 34px
+            width: 550px
+
+.Section03
+    margin: 150px 0
+    width: 100%
+    height: 749px
+    background-repeat: no-repeat
+    background-image: url("images/Rectangle 4.png")
+    background-position: left
+    background-size: contain
+    box-sizing: border-box
+    position: relative
+    display: flex
+    justify-content: flex-end
+    align-items: center
+    .Section03Card
+        width: 42%
+        height: 476px
+        border-radius: 10px
+        background-color: #EDEDED
+        padding: 61px 75px 105px 85px
+        box-sizing: border-box
+        position: absolute
+        #p01
+            font-size: 24px
+            font-weight: 700
+            font-family: font_1
+            font-style: normal
+            line-height: 29.26px
+            color: #0499DD
+            margin: 0
+            padding: 0
+        #p03
+            font-size: 14px
+            font-weight: 500
+            font-style: normal
+            font-family: font_1
+            line-height: 17.07px
+            color: #282828
+            margin: 0
+            padding: 0
+        #p02
+            font-size: 14px
+            font-weight: 500
+            font-style: normal
+            font-family: font_1
+            line-height: 17.07px
+            color: #282828
+            margin-top: 40px
+            margin-bottom: 20px
+            box-sizing: border-box
+            padding: 0
+.Section05
+    margin-top: 150px
+    width: 100%
+    height: 119px
+    padding: 0 9%
+    display: flex
+    align-items: flex-start
+    justify-content: flex-start
+    .headings
+        width: 100%
+        display: flex
+        justify-content: space-between
+        align-items: center
+        .heading001
+          font-family: font_1
+          font-weight: bold
+          font-style: normal
+          font-size: 24px
+          line-height: 29.26px
+          color: #0499DD
+        .heading002
+          font-family: font_1
+          font-weight: 500
+          font-style: normal
+          font-size: 12px
+          line-height: 14.63px
+          color: black
+          text-decoration: underline
+          cursor: pointer
+p
+    margin: 0
+    padding: 0
+.Section02
+    @extend .Section05
+    margin-top: 157px    
+.Section02_cards
+    padding-right: 0
+    width: 100%
+    height: 497px
+    display: flex
+    box-sizing: border-box
+    overflow: hidden
+    .s2divs
+        width: 360px
+        margin-right: 20px
+        height: 100%
+        background-repeat: no-repeat
+        border-radius: 10px
+        background-position: center
+        position: relative
+        padding: 0 1%
+        box-sizing: border-box
+        background-position: center
+        background-size: cover
+        .udiv
+            height: 244px
+            width: 328px
+            margin-top: 211px
+            display: flex
+            flex-direction: column
+            box-sizing: border-box
+            position: relative
+            .c_head
+                height: 34px
+                width: 100%
+                display: flex
+                flex-direction: column
+                margin: 0
+                padding: 0
+                #head_up
+                    width: 100%
+                    font-family: font_1
+                    font-weight: 500
+                    font-style: normal
+                    font-size: 12px
+                    line-height: 14.63px
+                    height: 15px
+                    margin-bottom: 2px
+                    color: white
+                #head_down
+                    width: 100%
+                    font-family: font_1
+                    font-weight: bold
+                    font-style: normal
+                    font-size: 14px
+                    line-height: 17.07px 
+                    height: 17px
+                    margin: 0
+                    color: #FFC700
+            .c_time
+                width: 138px
+                height: 15px
+                display: flex
+                flex-direction: row
+                justify-content: space-between
+                margin: 0
+                padding: 0
+                margin-top: 10px
+                span
+                    display: flex
+                    justify-content: space-between
+                    align-items: center
+                    p
+                        font-family: font_1
+                        font-style: normal
+                        font-weight: 500
+                        font-size: 12px
+                        line-height: 15px
+                        color: white
+                        margin: 0
+                        padding: 0  
+                .c_tt
+                    width: 63px
+                    height: 15px
+                    img
+                        width: 12px
+                        height: 12px
+                .c_pp
+                    width: 62px
+                    height: 15px
+                    justify-content: flex-start
+                    img
+                        margin-right: 3px
+                        width: 15px
+                        height: 15px
+            .c_bodytext
+                margin-top: 20px
+                padding: 0
+                width: 100%
+                p
+                    font-family: font_1
+                    font-weight: 500
+                    font-style: normal
+                    font-size: 12px
+                    line-height: 14.63px
+                    margin: 0
+                    padding: 0
+                    color: white
+            .s02_c_btn
+                position: absolute
+                bottom: 0
+                width: 160px
+                height: 40px
+                border-radius: 40px
+                p
+                    font-weight: bold
+                    font-size: 12px
+                    line-height: 14.63px
+                    padding: 0
+                    margin: 0
+    .s02_c1
+        background-image: url("images/Rectangle 13.png")
+    .s02_c2
+        background-image: url("images/Rectangle 14.png")
+    .s02_c3
+        background-image: url("images/Rectangle 15.png")
+    .s02_c4
+        width: 360px
+        margin-right: 0
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.142857) 0%, #000000 100%), url("images/Rectangle 16.jpg")
+        background-position: center
+        background-size: cover
+
+.imageSizer01
+    width: 100%
+    height: 100%
+.ImageSection06
+    width: 100%
+    height: 567px
+    padding: 0 1%
+    display: flex
+    justify-content: space-between
+    box-sizing: border-box
+    .img_position06
+        width: 32.4%
+        height: 100%
+    .position01
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        div
+            width: 100%
+            height: 280.5px
+        .position01_
+            display: flex
+            justify-content: space-between
+            height: 263.95px
+            div
+                height: 100%
+                width: 47.75%
+            .doubleimages01
+                display: flex
+                flex-direction: column
+                justify-content: space-between
+                img
+                    width: 100%
+                    height: 123.29px
+    .position03
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        div
+            width: 100%
+            height: 280.5px
+        .position03_div01
+            display: flex
+            justify-content: space-between
+            height: 263.95px
+            div.img03_
+                height: 100%
+                width: 53%
+            div.img04_
+                height: 100%
+                width: 43%
+.ImageSection06x
+    display: none
+    
+.Section07
+    @extend .Section05
+.Section08
+    height: 322px
+    width: 100%
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    overflow: hidden
+    .card1
+                width: 740px
+                margin-right: 20px
+                background-color: #ededed
+                border-radius: 10px
+                padding: 38px 27px 0 45px
+                display: flex
+                flex-direction: row
+                justify-content: space-between
+                img
+                    width: 245px
+                    height: 245px
+                    margin-right: 28px
+                div
+                    width: 395px
+                    display: flex
+                    flex-direction: column
+                    position: relative
+                    .s1
+                        margin-bottom: 20px
+                        font-family: font_1
+                        font-style: normal
+                        font-weight: 700
+                        font-size: 14px
+                        line-height: 17px
+                        color: #282828
+                    .s2
+                        font-family: font_1
+                        font-style: normal
+                        font-weight: 500
+                        font-size: 14px
+                        line-height: 17px
+                        color: #282828
+                    .s3
+                        position: absolute
+                        top: 10px
+                        left: 167.8px
+                        font-family: MarkoOne
+                        font-size: 500px
+                        line-height: 670.41px
+                        font-weight: 400
+                        font-style: normal
+                        color: #FFC700
+                        opacity: 0.4
+                        transform: rotate(16.66deg)
+    .card2
+                width: 740px
+                border-radius: 10px
+                background-color: #ededed
+                padding: 38px 27px 0 45px
+                display: flex
+                flex-direction: row
+                justify-content: space-between
+                img
+                    width: 245px
+                    height: 245px
+                    margin-right: 28px
+                .display26
+                    display: none
+                div
+                    width: 395px
+                    display: flex
+                    flex-direction: column
+                    position: relative
+                    .s1
+                        margin-bottom: 20px
+                        font-family: font_1
+                        font-style: normal
+                        font-weight: 700
+                        font-size: 14px
+                        line-height: 17px
+                        color: #282828
+                    .s2
+                        font-family: font_1
+                        font-style: normal
+                        font-weight: 500
+                        font-size: 14px
+                        line-height: 17px
+                        color: #282828
+                    .s3
+                        position: absolute
+                        top: 10px
+                        left: 167.8px
+                        font-family: MarkoOne
+                        font-size: 500px
+                        line-height: 670.41px
+                        font-weight: 400
+                        font-style: normal
+                        color: #FFC700
+                        opacity: 0.4
+                        transform: rotate(16.66deg)
+.Section09
+    height: 43px
+    padding: 0 9%
+    width: 100%
+    margin-top: 40px
+    box-sizing: border-box
+    display: flex
+    justify-content: flex-start
+    align-items: center
+    overflow: hidden
+    img
+        cursor: pointer
+    #poly2
+        margin-left: 38px
+        margin-right: 52px
+    #slider01
+        padding-bottom: 2px
+.Section10
+    margin-top: 171px
+    width: 100%
+    height: 640px
+    background-image: url("images/Rectangle 28.png")
+    background-repeat: no-repeat
+    background-size: cover
+    box-sizing: border-box
+    position: relative
+    .shade_s10
+        margin-left: 50%
+        width: 38.8%
+        height: 100%
+        background: rgba(0, 0, 0, 0.3)
+        backdrop-filter: blur(20px)
+        box-sizing: border-box
+        position: relative
+        .form_s10
+            position: absolute
+            width: 64.2%
+            margin-top: 20.625%
+            margin-left: 18.75%
+            height: 365px
+            .heading_s10
+                height: 52px
+                display: block
+                #headp
+                    font-family: font_1
+                    font-weight: bold
+                    font-style: normal
+                    font-size: 24px
+                    line-height: 29.26px
+                    color: white
+                #bodyp
+                    font-family: font_1
+                    font-weight: 500
+                    font-style: normal
+                    font-size: 14px
+                    line-height: 17.07px
+                    color: #FFC700
+                    margin-top: 6px
+            .inputs_s10
+                margin-top: 45px
+                width: 100%
+                height: 135px
+                input
+                    width: 100%
+                    border: 0
+                    border-bottom: 1px solid white
+                    background-color: transparent
+                    color: white
+                    font-family: font_1
+                    font-weight: 500
+                    font-style: normal
+                    font-size: 12px
+                    line-height: 14.63px
+                #input_tl
+                    margin: 45px 0
+            .button_s10
+                margin-top: 83px
+               
+.footerSectionLgMd
+    width: 100%
+    height: 173px
+    padding: 0 9%
+    background-color: #EDEDED
+    display: flex
+    justify-content: space-between
+    align-items: center
+    .leftside
+        height: 114px
+        width: 28%
+        display: flex
+        justify-content: space-between
+        align-items: center
+        img
+            width: 80px
+            height: 114px
+        img:hover
+            filter: brightness(120%)
+        .leftsideBar
+            display: flex
+            flex-direction: column
+            box-sizing: border-box
+            justify-content: space-between
+            width: 124px
+            height: 67px
+            a
+                color: black
+            a:hover
+                text-decoration: none
+                outline: none
+            .a1:hover
+                color: #bc0000
+            .a2:hover
+                color: #e59b06
+            .a3:hover
+                color: #17c1bc
+            p
+              font-family: font_1
+              font-style: normal
+              font-weight: 500
+              font-size: 14px
+              line-height: 17.07px
+              color: black
+              margin: 0
+              padding: 0
+    .rightside
+        width: 45.3%
+        height: 72px
+        display: flex
+        justify-content: space-between
+        align-items: center
+        .rightsidebar01
+            width: 207px
+            height: 70px
+            display: flex
+            flex-flow: column
+            div
+                width: 100%
+                display: flex
+                align-items: center
+                justify-content: flex-start
+                margin-bottom: 8px
+                img
+                    width: 20px
+                    height: 20px
+                    margin-right: 9px
+                    cursor: pointer
+                .imgxx
+                    width: 19px
+                    height: 19px
+                    margin-right: 9px
+                p
+                    align-self: flex-end
+                    font-family: font_1
+                    font-style: normal
+                    font-weight: 500
+                    font-size: 14px
+                    line-height: 17.07px
+                    color: black
+                    padding: 0
+                    margin: 0
+            .marginner02
+                margin-bottom: 0
+        .rightsidebar02
+            display: flex
+            flex-direction: column
+            justify-content: space-between
+            height: 72px
+            width: 173px
+            .mail
+                width: 100%
+                display: flex
+                .imgxx
+                    width: 19px
+                    height: 19px
+                    margin-right: 9px
+                    cursor: pointer
+                p
+                    align-self: flex-end
+                    font-family: font_1
+                    font-style: normal
+                    font-weight: 500
+                    font-size: 14px
+                    line-height: 17.07px
+                    color: black
+                    padding: 0
+                    margin: 0
+            .smlogos
+                width: 112px
+                display: flex
+                align-items: flex-end
+                box-sizing: border-box
+                height: 38px
+                img:hover
+                    filter: brightness(50%)    
+                #smlogo01
+                    width: 31.1px
+                    height: 20.2px
+                    cursor: pointer
+                    margin-bottom: 5px
+                #smlogo02
+                    width: 32px
+                    height: 32px
+                    cursor: pointer
+                    margin-left: 9.34px
+                    margin-right: 6px
+                #smlogo03
+                    width: 30px
+                    height: 30px
+                    box-sizing: border-box
+                    cursor: pointer
+                    margin-right: 5px
+
+@media screen and (max-width: 991px) and (min-width: 767px)
+ .topdiv
+    width: 100%
+    height: 1115px
+    background-image: url("images/Rectangle 1(tablet).png")
+    position: relative
+    background-size: 100% 1024px
+    background-repeat: no-repeat
+    background-position-x: center
+    display: flex
+    flex-direction: column
+    justify-content: space-between !important
+    overflow: hidden
+    .navigation
+        width: 100%
+        position: relative
+        top: 26px
+        height: 677px
+        box-sizing: border-box
+        .navbar1
+            width: 100%
+            position: relative
+            height: 57px
+            display: flex
+            justify-content: space-between
+            align-items: center
+            .logo
+                width: 40px
+                height: 100%
+            .menubtn
+                display: flex
+                background-color: transparent
+                border: 0
+                #hamburgericon
+                    display: flex
+                    width: 40px
+                    height: 40px
+            .menu
+                display: none
+            .navbar-collapse
+                width: 100%
+                top: 60px
+                position: absolute
+                .menubar
+                    display: flex
+                    flex-direction: column
+                    justify-content: space-between
+                    box-sizing: border-box
+                    width: 100%
+                    background: #4b49496c
+                    .clickedlist
+                        background-color: #ffc80086
+                    .menulist:hover
+                        filter: brightness(150%)
+                    .menulist
+                        list-style-type: none
+                        width: 100%
+                        .menulink
+                            margin-left: 1px
+                            text-decoration: none
+                            font-style: normal
+                            font-family: font_1
+                            font-weight: 500
+                            line-height: 17.07px
+                            font-size: 17px
+                            color: #fff                                              
+        .under_navbar
+            width: 463px
+            height: 243px
+            position: relative
+            margin-top: 235px
+            .heading01
+                width: 395px
+                height: 59px
+                font-size: 48px
+                line-height: 58.51px
+                color: #fff
+            .heading02
+                margin-top: 12px
+                width: 406px
+                height: 172px
+                font-size: 96px
+                line-height: 86.4px
+                color: transparent
+                -webkit-text-stroke: 0.1px white
+                -webkit-text-fill-color: transparent
+                .xx-size
+                    display: none
+            .text03
+                width: 114px
+                height: 48px
+                position: absolute
+                top: 38px
+                left: 342px
+                font-size: 48px
+                line-height: 48px
+        .topBtn
+            position: relative
+            margin-top: 90px
+        .smlogos_top
+            position: absolute
+            float: right
+            top: 430px
+    .bottomcards
+        position: absolute !important
+        top: 928px
+        right: 0
+        display: flex
+        height: 187px
+        width: 479px
+        overflow: hidden
+        .vcard
+            width: 295px
+            height: 187px
+            .videoIm
+                width: 295px
+                height: 187px
+        .imgcard
+            width: 295px
+            height: 187px
+ 
+ .Section4
+    width: 100%
+    height: 837px
+    padding: 0px 9%
+    margin-top: 150px
+    box-sizing: border-box
+    display: flex
+    flex-direction: column
+    .heading04
+        margin-bottom: 90px
+        font-family: fon_1
+        font-weight: 700
+        font-style: normal
+        font-size: 24px
+        line-height: 29.26px
+        color: #0499DD
+    .cards04
+        width: 100%
+        height: 600px
+        display: flex
+        flex-direction: column
+        flex-wrap: wrap
+        align-items: space-between
+        .cardx
+            width: 100%
+            height: 134px
+            display: flex
+            justify-content: flex-start
+            box-sizing: border-box
+ .ImageSection06
+     .position01
+         display: none
+     .position02
+         width: 28%
+     .position03
+         width: 69%
+ .Section02
+    margin-top: 150px
+    .headings
+        position: relative
+        .heading001
+            position: absolute
+            top: 0
+            left: 0
+        .heading002
+            position: absolute
+            right: 0
+            top: 49px
+ .Section02_cards
+    padding-right: 0
+    width: 100%
+    height: 490px
+    display: flex
+    box-sizing: border-box
+    overflow: hidden
+    .s2divs
+        width: 295px
+        margin-right: 20px
+        height: 100%
+        background-repeat: no-repeat
+        border-radius: 10px
+        background-position: center
+        position: relative
+        padding: 0 1%
+        box-sizing: border-box
+        background-position: center
+        background-size: cover
+        .udiv
+            height: 285px
+            width: 265px
+            margin-top: 174px
+            display: flex
+            flex-direction: column
+            box-sizing: border-box
+            position: relative
+            .c_head
+                height: 34px
+                width: 100%
+                display: flex
+                flex-direction: column
+                margin: 0
+                padding: 0
+                #head_up
+                    width: 100%
+                    font-family: font_1
+                    font-weight: 500
+                    font-style: normal
+                    font-size: 12px
+                    line-height: 14.63px
+                    height: 15px
+                    margin: 0
+                    margin-bottom: 2px
+                    color: white
+                #head_down
+                    width: 100%
+                    font-family: font_1
+                    font-weight: bold
+                    font-style: normal
+                    font-size: 14px
+                    line-height: 17.07px 
+                    height: 17px
+                    margin: 0
+                    color: #FFC700
+            .c_time
+                width: 138px
+                height: 15px
+                display: flex
+                flex-direction: row
+                justify-content: space-between
+                margin: 0
+                padding: 0
+                margin-top: 10px
+                span
+                    display: flex
+                    justify-content: space-between
+                    align-items: center
+                    p
+                        font-family: font_1
+                        font-style: normal
+                        font-weight: 500
+                        font-size: 12px
+                        line-height: 15px
+                        color: white
+                        margin: 0
+                        padding: 0  
+                .c_tt
+                    width: 63px
+                    height: 15px
+                    img
+                        width: 12px
+                        height: 12px
+                .c_pp
+                    width: 62px
+                    height: 15px
+                    justify-content: flex-start
+                    img
+                        margin-right: 3px
+                        width: 15px
+                        height: 15px
+            .c_bodytext
+                margin: 0
+                padding: 0
+                width: 100%
+                margin-top: 20px
+                p
+                    font-family: font_1
+                    font-weight: 500
+                    font-style: normal
+                    font-size: 12px
+                    line-height: 14.63px
+                    margin: 0
+                    padding: 0
+                    color: white
+            .s02_c_btn
+                position: absolute
+                bottom: 0
+                width: 160px
+                height: 40px
+                border-radius: 40px
+                p
+                    font-weight: bold
+                    font-size: 12px
+                    line-height: 14.63px
+                    padding: 0
+                    margin: 0
+    .s02_c1
+        background-image: url("images/Rectangle 13.png")
+    .s02_c2
+        background-image: url("images/Rectangle 14.png")
+    .s02_c3
+        background-image: url("images/Rectangle 15.png")
+    .s02_c4
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.142857) 0%, #000000 100%), url("images/Rectangle 16.jpg")
+        background-position: center
+        background-size: cover
+ .ImageSection06x
+      display: none
+ .Section07
+     .headings
+         .heading002
+             display: none
+ .Section08
+            height: 246px
+            display: flex
+            flex-direction: row
+            justify-content: space-between
+            overflow: hidden
+            position: relative
+            .card1
+                width: 505px
+                margin-right: 20px
+                background-color: #ededed
+                border-radius: 10px
+                padding: 26px 17px 0 31px
+                display: flex
+                flex-direction: row
+                justify-content: space-between
+                img
+                    width: 168px
+                    height: 168px
+                    margin-right: 20px
+                div
+                    width: 269px
+                    display: flex
+                    flex-direction: column
+                    .s1
+                        margin-bottom: 10px
+                        font-family: font_1
+                        font-style: normal
+                        font-weight: 700
+                        font-size: 14px
+                        line-height: 17px
+                        color: #282828
+                    .s2
+                        font-family: font_1
+                        font-style: normal
+                        font-weight: 500
+                        font-size: 12px
+                        line-height: 14.63px
+                        color: #282828
+                    .s3
+                        position: absolute
+                        top: 10px
+                        left: 80px
+                        font-family: MarkoOne
+                        font-size: 400px
+                        line-height: 536.33px
+                        font-weight: 400
+                        font-style: normal
+                        color: #FFC700
+                        opacity: 0.4
+                        transform: rotate(16.66deg)
+            .card2
+                width: 505px
+                border-top-left-radius: 10px
+                border-bottom-left-radius: 10px
+                background-color: #ededed
+                padding: 26px 17px 0 31px
+                display: flex
+                flex-direction: row
+                justify-content: space-between
+                img
+                    width: 168px
+                    height: 168px
+                    margin-right: 20px
+                .display27
+                    display: none
+                .display26
+                    display: flex
+                div
+                    width: 269px
+                    display: flex
+                    flex-direction: column
+                    .s1
+                        margin-bottom: 10px
+                        font-family: font_1
+                        font-style: normal
+                        font-weight: 700
+                        font-size: 14px
+                        line-height: 17px
+                        color: #282828
+                    .s2
+                        font-family: font_1
+                        font-style: normal
+                        font-weight: 500
+                        font-size: 12px
+                        line-height: 14.63px
+                        color: #282828
+                    .s3
+                        position: absolute
+                        top: 10px
+                        left: 80px
+                        font-family: MarkoOne
+                        font-size: 400px
+                        line-height: 536.33px
+                        font-weight: 400
+                        font-style: normal
+                        color: #FFC700
+                        opacity: 0.4
+                        transform: rotate(16.66deg)
+ .Section10
+    background-image: url("images/Rectangle 28(tablet).png")
+    background-position: bottom
+    .shade_s10
+        margin-left: 37.6%
+        width: 52%
+        .form_s10
+            position: absolute
+            width: 79%
+            margin-top: 21.4%
+            margin-left: 10.75%
+ .footerSectionLgMd
+    display: flex
+    justify-content: space-between
+    align-items: center
+    .leftside
+        height: 93px
+        width: 214px
+        display: flex
+        justify-content: space-between
+        align-items: center
+        img
+            width: 65px
+            height: 93px
+        .leftsideBar
+            align-self: flex-start
+            margin-top: 13px
+            display: flex
+            flex-direction: column
+            box-sizing: border-box
+            justify-content: space-between
+            width: 107px
+            height: 55px
+            p
+              font-family: font_1
+              font-style: normal
+              font-weight: 500
+              font-size: 12px
+              line-height: 14.63px
+              color: black
+              margin: 0
+              padding: 0
+    .rightside
+        width: 359px
+        height: 72px
+        display: flex
+        justify-content: space-between
+        align-items: center
+        .rightsidebar01
+            width: 181px
+            height: 69px
+            display: flex
+            flex-flow: column
+            align-items: flex-start
+            div
+                width: 100%
+                display: flex
+                align-items: center
+                justify-content: flex-start
+                margin-bottom: 5px
+                img
+                    width: 20px
+                    height: 20px
+                    margin-right: 9px
+                    cursor: pointer
+                .imgxx
+                    width: 19px
+                    height: 19px
+                    margin-right: 9px
+                p
+                    align-self: flex-end
+                    font-family: font_1
+                    font-style: normal
+                    font-weight: 500
+                    font-size: 12px
+                    line-height: 14.63px
+                    color: black
+                    padding: 0
+                    margin: 0
+            .marginner02
+                margin-bottom: 0
+        .rightsidebar02
+            display: flex
+            flex-direction: column
+            justify-content: space-between
+            height: 72px
+            width: 149px
+            .mail
+                width: 100%
+                display: flex
+                .imgxx
+                    width: 19px
+                    height: 19px
+                    margin-right: 9px
+                    cursor: pointer
+                p
+                    align-self: flex-end
+                    font-family: font_1
+                    font-style: normal
+                    font-weight: 500
+                    font-size: 12px
+                    line-height: 14.63px
+                    color: black
+                    padding: 0
+                    margin: 0
+            .smlogos
+                width: 112px
+                display: flex
+                align-items: center
+                height: 38px    
+                #smlogo01
+                    width: 31.1px
+                    height: 20.2px
+                    cursor: pointer
+                    align-self: flex-end
+                    margin-bottom: 7px
+                #smlogo02
+                    width: 32px
+                    height: 32px
+                    cursor: pointer
+                    margin-left: 9.34px
+                    margin-right: 6px
+                    
+                #smlogo03
+                    width: 30px
+                    height: 30px
+                    cursor: pointer
+ .Section03
+        width: 66%
+        height: 749px
+        background-repeat: no-repeat
+        background-image: url("images/Rectangle 4(tablet).png")
+        background-size: contain
+        position: relative
+        background-position: left
+        box-sizing: border-box
+        display: flex
+        align-items: center
+        .Section03Card
+            width: 493px
+            height: 433px
+            border-radius: 10px
+            background-color: #EDEDED
+            padding: 62px 55px 61px 56px
+            position: absolute
+            top: 27%
+            left: 38.8%
+            box-sizing: border-box
+            display: flex
+            flex-direction: column
+            #p01
+                font-size: 24px
+                font-family: font_1
+                font-weight: 700
+                font-style: normal
+                line-height: 29.26px
+                color: #0499DD
+            #p03
+                font-size: 14px
+                font-family: font_1
+                font-weight: 500
+                font-style: normal
+                line-height: 17.07px
+                color: #282828
+                padding: 0
+                margin: 0
+            #p02
+                font-size: 14px
+                font-family: font_1
+                font-weight: 500
+                font-style: normal
+                line-height: 17.07px
+                color: #282828
+                margin-top: 40px
+                margin-bottom: 20px
+                box-sizing: border-box
+                padding: 0
+//SMALL SCREEN DEVICES--------------------------------------
+@media screen and (max-width: 766px)
+ .padding-x
+    padding: 0 5.6%
+ .topdiv
+    background-image: url("images/Rectangle 1(phone).png")
+    position: relative
+    background-size: 100% 928px
+    background-repeat: no-repeat
+    background-position-x: center
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    overflow: hidden
+    width: 100%
+    height: 1019px
+    .navigation
+        width: 100%
+        position: relative
+        top: 26px
+        height: 701px
+        box-sizing: border-box
+        .navbar1
+            width: 100%
+            position: relative
+            height: 57px
+            display: flex
+            justify-content: space-between
+            align-items: center
+            .logo
+                width: 40px
+                height: 100%
+            .menubtn
+                display: flex
+                background-color: transparent
+                border: 0
+                #hamburgericon
+                    display: flex
+                    width: 40px
+                    height: 40px
+            .menu
+                display: none
+            .navbar-collapse
+                width: 100%
+                top: 60px
+                position: absolute
+                .menubar
+                    display: flex
+                    flex-direction: column
+                    justify-content: space-between
+                    box-sizing: border-box
+                    width: 100%
+                    background: #4b49496c
+                    .clickedlist
+                        background-color: #ffc80086
+                    .menulist:hover
+                        filter: brightness(150%)
+                    .menulist
+                        list-style-type: none
+                        width: 100%
+                        .menulink
+                            margin-left: 1px
+                            text-decoration: none
+                            font-style: normal
+                            font-family: font_1
+                            font-weight: 500
+                            line-height: 17.07px
+                            font-size: 17px
+                            color: #fff
+        .under_navbar
+            width: 323px
+            height: 186px
+            margin-top: 116px
+            position: relative
+            .heading01
+                width: 296px
+                height: 44px
+                font-size: 36px
+                line-height: 43.88px
+                color: #fff
+            .heading02
+                margin-top: 12px
+                width: 305px
+                height: 130px
+                font-size: 72px
+                line-height: 64.8px
+                color: transparent
+                -webkit-text-stroke: 0.1px white
+                -webkit-text-fill-color: transparent
+                .xx-size
+                    display: none
+            .text03
+                width: 114px
+                height: 48px
+                position: absolute
+                top: 22px
+                left: 204px
+                font-size: 48px
+                line-height: 48px
+        .topBtn
+            position: relative
+            margin-top: 90px
+        .smlogos_top
+            margin: 0 5.6%
+            position: absolute
+            right: 0 
+            top: 617px 
+    .bottomcards
+        position: absolute
+        top: 832px
+        height: 187px
+        width: 404px
+        overflow: hidden
+        display: flex
+        flex-direction: row
+        justify-content: flex-start
+        align-items: flex-start
+        .vcard
+            width: 295px
+            height: 187px
+            .videoIm
+                width: 295px
+                height: 187px
+        .imgcard
+            width: 295px
+            height: 187px
+ .Section4
+    width: 100%
+    height: 1045px
+    padding: 0 5.6%
+    margin-top: 150px
+    box-sizing: border-box
+    display: flex
+    flex-direction: column
+    .heading04
+        margin-bottom: 90px
+        font-family: fon_1
+        font-weight: 700
+        font-style: normal
+        font-size: 24px
+        line-height: 29.26px
+        color: #0499DD
+    .cards04
+        width: 100%
+        height: 728px
+        display: flex
+        flex-direction: column
+        flex-wrap: wrap
+        justify-content: space-between
+        .cardx
+            width: 100%
+            height: 134px
+            display: flex
+            justify-content: flex-start
+            box-sizing: border-box
+    .footer04
+        margin-top: 60px
+        height: 138px
+        box-sizing: border-box
+        width: 100%
+        display: flex
+        align-items: center
+        .footertext04
+            padding: 0 4%
+            width: 100%
+            box-sizing: border-box
+            height: 48px
+            font-size: 13px
+            font-weight: 500
+            text-align: center
+            line-height: 15.85px
+ .Section05
+    padding: 0 5.6%
+ .ImageSection06
+     display: none
+ .ImageSection06x
+    width: 100%
+    height: 680px
+    padding: 0 5.6%
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    box-sizing: border-box
+    .position01
+        width: 100%
+        height: 58.8%
+        display: flex
+        justify-content: space-between
+        div
+            width: 48%
+            
+        div.position01_2
+            display: flex
+            flex-direction: column
+            justify-content: space-between
+            .position01_2_01
+                width: 100%
+                height: 46.5%
+            .position01_2_02
+                height: 48.5%
+                width: 100%
+    .position02
+        width: 100%
+        height: 38.2%
+ .Section08
+            width: 100%
+            height: 447px
+            display: flex
+            flex-direction: row
+            //justify-content: space-between
+            overflow: hidden
+            .card1
+                width: 280px
+                margin-right: 23px
+                background-color: #ededed
+                border-radius: 10px
+                padding: 32px 30px 0 28px
+                display: flex
+                flex-direction: column
+                justify-content: flex-start
+                img
+                    width: 80px
+                    height: 80px
+                    margin-bottom: 20px
+                div
+                    width: 210px
+                    display: flex
+                    flex-direction: column
+                    .s1
+                        margin-bottom: 10px
+                        font-family: font_1
+                        font-style: normal
+                        font-weight: 700
+                        font-size: 14px
+                        line-height: 17px
+                        color: #282828
+                    .s2
+                        font-family: font_1
+                        font-style: normal
+                        font-weight: 500
+                        font-size: 12px
+                        line-height: 14.63px
+                        color: #282828
+                    .s3
+                        position: absolute
+                        top: 85px
+                        left: 41px
+                        font-family: MarkoOne
+                        font-size: 400px
+                        line-height: 536.33px
+                        font-weight: 400
+                        font-style: normal
+                        color: #FFC700
+                        opacity: 0.4
+                        transform: rotate(16.66deg)
+            .card2
+                width: 280px
+                border-top-left-radius: 10px
+                border-bottom-left-radius: 10px
+                background-color: #ededed
+                padding: 32px 24px 0 28px
+                display: flex
+                flex-direction: column
+                justify-content: flex-start
+                img
+                    width: 80px
+                    height: 80px
+                    margin-bottom: 20px
+                .display27
+                    display: none
+                .display26
+                    display: flex
+                div
+                    width: 210px
+                    display: flex
+                    flex-direction: column
+                    position: relative
+                    .s1
+                        margin-bottom: 10px
+                        font-family: font_1
+                        font-style: normal
+                        font-weight: 700
+                        font-size: 14px
+                        line-height: 17px
+                        color: #282828
+                    .s2
+                        font-family: font_1
+                        font-style: normal
+                        font-weight: 500
+                        font-size: 12px
+                        line-height: 14.63px
+                        color: #282828
+                    .s3
+                        position: absolute
+                        top: 85px
+                        left: 41px
+                        font-family: MarkoOne
+                        font-size: 400px
+                        line-height: 536.33px
+                        font-weight: 400
+                        font-style: normal
+                        color: #FFC700
+                        opacity: 0.4
+                        transform: rotate(16.66deg)
+ .Section10
+    margin-top: 171px
+    height: 928px
+    background-image: url("images/Rectangle 28(phone).png")
+    background-size: cover
+    background-position: center
+    position: relative
+    .shade_s10
+        position: absolute
+        margin-top: 25px
+        ////////////////////
+        margin-left: 5.6%
+        width: 88.78%
+        height: 640px
+        .form_s10
+            position: absolute
+            width: 77.6%
+            margin-top: 21.4%
+            margin-left: 11.3%
+ .footerSectionMobile
+    width: 100%
+    height: 412px
+    background-color: #EDEDED
+    display: flex
+    flex-direction: column
+    box-sizing: border-box
+    .footer01
+        margin-top: 47.57px
+        height: 161px
+        width: 100%
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        align-items: center
+        img
+            width: 79px
+            height: 113px
+        img:hover
+            filter: brightness(120%)
+        .smlogos
+            width: 112px
+            display: flex
+            align-items: center
+            height: 38px
+            img:hover
+                filter: brightness(50%)
+            #smlogo01
+                width: 31.1px
+                height: 20.2px
+                cursor: pointer
+                align-self: flex-end
+                margin-bottom: 7px
+            #smlogo02
+                width: 32px
+                height: 32px
+                cursor: pointer
+                margin-left: 9.34px
+                margin-right: 6px
+            #smlogo03
+                width: 30px
+                height: 30px
+                cursor: pointer
+    .footer02
+        box-sizing: border-box
+        margin-top: 65.35px
+        padding: 0 5.6%
+        display: flex
+        justify-content: space-between
+        .left02
+            display: flex
+            flex-direction: column
+            box-sizing: border-box
+            justify-content: space-between
+            width: 107px
+            height: 55px
+            a
+                color: black
+            a:hover
+                text-decoration: none
+                outline: none
+            .a1:hover
+                color: #bc0000
+            .a2:hover
+                color: #e59b06
+            .a3:hover
+                color: #17c1bc
+            p
+              font-family: font_1
+              font-style: normal
+              font-weight: 500
+              font-size: 12px
+              line-height: 14.63px
+              color: black
+              margin: 0
+              padding: 0
+                
+        .right02
+            width: 180px
+            height: 94px
+            display: flex
+            flex-direction: column
+            div
+                width: 100%
+                display: flex
+                align-items: center
+                justify-content: flex-start
+                margin-bottom: 5.08px
+                img
+                    width: 20px
+                    height: 20px
+                    margin-right: 6.29px
+                    cursor: pointer
+                .imgxx
+                    width: 19px
+                    height: 19px
+                    margin-right: 5px
+                p
+                    font-family: font_1
+                    font-style: normal
+                    font-weight: 500
+                    font-size: 12px
+                    line-height: 14.63px
+                    color: black
+                    padding: 0
+                    margin: 0
+                
+ .footerSectionLgMd
+    display: none
+ .Section02
+    margin-top: 150px
+    .headings
+        .heading002
+            display: none
+ .Section02_cards
+    width: 100%
+    height: 540px
+    display: flex
+    justify-content: space-between
+    box-sizing: border-box
+    .s2divs
+        width: 280px
+        height: 540px
+        padding-left: 15px
+        padding-right: 12px
+        .udiv
+            height: 328px
+            width: 253px
+            margin-top: 182px
+            display: flex
+            flex-direction: column
+            box-sizing: border-box
+            .c_bodytext
+                width: 100%
+                p
+                    font-family: font_1
+                    font-weight: 500
+                    font-style: normal
+                    font-size: 13px
+                    line-height: 15.85px
+                    margin: 0
+                    padding: 0
+                    color: white
+
+ .Section03
+        width: 94.3%
+        height: 704px
+        background-repeat: no-repeat
+        background-image: url("images/Rectangle 4(phone).png")
+        background-size: contain
+        position: relative
+        background-position: left
+        box-sizing: border-box
+        display: flex
+        align-items: center
+        .Section03Card
+            width: 380px
+            height: 386px
+            border-radius: 10px
+            background-color: #EDEDED
+            padding: 43px
+            padding-bottom: 44px
+            position: absolute
+            left: 7.8%
+            box-sizing: border-box
+            display: flex
+            flex-direction: column
+            #p01
+                font-size: 24px
+                font-family: font_1
+                font-weight: 700
+                font-style: normal
+                line-height: 29.26px
+                color: #0499DD
+            #p03
+                font-size: 13px
+                font-family: font_1
+                font-weight: 500
+                font-style: normal
+                line-height: 15.85px
+                color: #282828
+                padding: 0
+                margin: 0
+            #p02
+                font-size: 13px
+                font-family: font_1
+                font-weight: 500
+                font-style: normal
+                line-height: 15.85px
+                color: #282828
+                margin-top: 20px
+                margin-bottom: 10px
+                box-sizing: border-box
+                padding: 0

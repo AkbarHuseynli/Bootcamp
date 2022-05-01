@@ -1,0 +1,2486 @@
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+p
+    margin: 0
+    padding: 0
+
+$yellow_color: #FFC700
+
+.pageBtn
+    width: 230px
+    height: 50px
+    border-radius: 60px
+    border: 0
+    background: linear-gradient(92.71deg, #0499DD 0%, #17C1BC 100%)
+    font-family: font_1
+    font-weight: bold
+    font-style: normal
+    font-size: 14px
+    line-height: 17.07px
+    color: white
+    display: flex
+    justify-content: center
+    align-items: center
+    position: relative
+    z-index: 1
+.footbtn::before
+    position: absolute
+    content: ''
+    width: 0
+    height: 100%
+    border-radius: 40px
+    background-color: darken(#0499DD,5%)
+    transition: all 0.3s
+    z-index: -1
+.footbtn:hover.footbtn::before
+    width: 100%
+
+.Btntext
+    display: flex
+    justify-content: flex-end
+    align-items: flex-end
+    color: white
+    text-decoration: none
+.Btntext:hover
+    color: white
+    text-decoration: none
+.Btnicon
+    margin-left: 5px
+    margin-bottom: 3.5px
+    width: 14px
+
+@font-face
+    font-family: font_1
+    src: url(../fonts/Montserrat-Medium.ttf)
+
+@font-face
+    font-family: font_2
+    src: url(../fonts/mr_kindlyjasmineg.otf)
+
+@media screen and (min-width: 992px)
+    .padding-x
+        padding: 0 9%
+    .topdiv
+        width: 100%
+        height: 289px
+        background-image: url("../images/Rectangle 1(pg2).png")
+        position: relative
+        background-position: center
+        background-size: cover
+        box-sizing: border-box
+        background-repeat: no-repeat
+        .navigation
+            height: 204px
+            width: 100%
+            position: relative
+            top: 26px
+            box-sizing: border-box
+            .e_navbar01
+                width: 100%
+                height: 57px
+                display: flex
+                justify-content: space-between
+                align-items: center
+                .logo:hover
+                    filter: brightness(50%)
+                .logo
+                    width: 40px
+                    height: 100%
+                .menubtn
+                    display: none
+                .menu
+                    height: 17px
+                    width: 303px
+                    .menubar
+                        display: flex
+                        justify-content: space-between
+                        box-sizing: border-box
+                        justify-content: space-between
+                        .menulist
+                            list-style-type: none
+                            .menulink:hover
+                                filter: brightness(150%)
+                            .menulink
+                                text-decoration: none
+                                font-style: normal
+                                font-family: font_1
+                                font-weight: 500
+                                line-height: 17.07px
+                                font-size: 14px
+                                color: #fff
+                            .Clicked
+                                color: $yellow_color
+            .nav_heading01
+                margin-top: 59px
+                width: 756px
+                height: 88px
+                font-family: font_1
+                font-weight: 700
+                font-style: normal
+                font-size: 72px
+                line-height: 87.77px
+                color: #fff
+                fill: solid
+    .division02
+        width: 100%
+        height: 260px
+        margin-top: 40px
+        display: flex
+        align-items: center
+        justify-content: center
+        box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.05)
+        div
+            height: 140px
+            width: 89.2%
+            display: flex
+            flex-direction: column
+            justify-content: space-between
+            align-items: center
+            .up
+                width: 475px
+                height: 30px
+                display: flex
+                flex-direction: column
+                justify-content: space-between
+                align-items: center
+                box-sizing: border-box
+                div
+                    width: 100%
+                    display: flex
+                    justify-content: space-around
+                    flex-direction: row
+                    flex-wrap: wrap
+                    height: 17px
+                    p
+                        font-family: font_1
+                        font-weight: 500
+                        font-size: 14px
+                        line-height: 17.07px
+                        color: black
+                    #upx
+                        color: #0499DD
+                img
+                    width: 100%
+                    height: 2px
+            .down
+                width: 100%
+                height: 50px
+                display: flex
+                flex-direction: row
+                justify-content: space-between
+                box-sizing: border-box
+                div
+                    width: 235px
+                    height: 50px
+                    border-radius: 10px
+                    display: flex
+                    flex-direction: row
+                    justify-content: space-between
+                    align-items: center
+                    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1)
+                    span
+                        font-style: normal
+                        font-family: font_1
+                        font-weight: 500
+                        line-height: 17.07px
+                        font-size: 14px
+                        height: 17px
+                .down01
+                    padding: 0 24px
+                    img
+                        width: 31px
+                        height: 31px
+                .down02
+                    padding: 0 25px
+                    img
+                        width: 20px
+                        height: 20px
+                .down03
+                    padding: 0 27px
+                    img
+                        width: 23px
+                        height: 23px
+                .down04
+                    display: flex
+                    padding: 0 82px
+                    box-sizing: border-box
+                    align-items: center
+                    background: linear-gradient(92.71deg, #0499DD 0%, #17C1BC 100%)
+                    span
+                        font-weight: 700
+                        color: white
+                        height: 17px
+                        width: 71px
+                .down04:hover
+                    cursor: pointer
+    .side_divison03
+        height: 1018px
+        width: 26.3%
+        box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.05)
+        border-radius: 10px
+        padding: 34px
+        box-sizing: border-box
+        display: flex
+        flex-direction: column
+        span
+            font-family: font_1
+            font-size: 14px
+            font-weight: 700
+            color: #0499DD
+            line-height: 17.07px
+        .div01
+            margin-top: 31px
+            height: 102px
+            display: flex
+            flex-direction: column
+            justify-content: space-between
+            .dd01
+                display: flex
+                justify-content: space-between
+                height: 17px
+                width: 100%
+                align-items: center
+                span
+                    font-family: font_1
+                    font-style: normal
+                    font-weight: 700
+                    font-size: 14px
+                    line-height: 17px
+                    color: black
+                img
+                    width: 16px
+                    height: 2px
+            .dd02
+                width: 100%
+                display: flex
+                justify-content: space-between
+                button
+                    width: 105px
+                    height: 30px
+                    border: 1px solid #EDEDED
+                    box-sizing: border-box
+                    color: black
+                    font-size: 12px
+                    font-weight: 500
+                    font-family: font_1
+                    border-radius: 40px
+                    background-color: white
+                    line-height: 15px
+                    text-align: left
+                    padding-left: 18px
+                    transition: all .3s
+                button:hover
+                    background-color: #0499DD
+                    color: white
+            .polyz
+                width: 100%
+                height: 15px
+                position: relative
+                display: flex
+                align-items: center
+                #back1
+                    width: 100%
+                    height: 3px
+                    border: 3px
+                    position: absolute
+                    z-index: -99999
+                #e1
+                    margin-left: 28px
+                #l9
+                    height: 3px
+                    width: 34.2%
+        .div03_img
+            width: 100%
+            height: 1px
+            margin-top: 40px
+        .div04
+            height: 178px
+            width: 100%
+            display: flex
+            flex-direction: column
+            justify-content: space-between
+            margin-top: 40px
+            .top04
+                display: flex
+                justify-content: space-between
+                height: 17px
+                width: 100%
+                align-items: center
+                span
+                    font-family: font_1
+                    font-style: normal
+                    font-weight: 700
+                    font-size: 14px
+                    line-height: 17px
+                    color: black
+                img
+                    width: 16px
+                    height: 2px
+            .btns
+                height: 141px
+                width: 100%
+                display: flex
+                flex-wrap: wrap
+                justify-content: space-between
+                button
+                    width: 32.4% //73px
+                    height: 30px
+                    border: 1px solid #EDEDED
+                    box-sizing: border-box
+                    border-radius: 40px
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    font-family: font_1
+                    font-style: normal
+                    font-weight: 500
+                    font-size: 12px
+                    line-height: 15px
+                    color: #282828
+                    background-color: white
+                    transition: all .3s
+                button:hover
+                    background-color: #0499DD
+                    color: white
+                .x5
+                    background: #0499DD
+                    color: white
+                    border: 0
+                .x10
+                    width: 66.2% //149px
+        .div05
+            height: 132px
+            width: 100%
+            margin-top: 40px
+            display: flex
+            flex-direction: column
+            justify-content: space-between
+            .dd01
+                display: flex
+                justify-content: space-between
+                height: 17px
+                width: 100%
+                align-items: center
+                span
+                    font-family: font_1
+                    font-style: normal
+                    font-weight: 700
+                    font-size: 14px
+                    line-height: 17px
+                    color: black
+                img
+                    width: 16px
+                    height: 2px
+            .radio
+                display: flex
+                flex-direction: column
+                height: 95px
+                width: 100%
+                justify-content: space-between
+                div
+                    display: flex
+                    align-items: center
+                    input
+                        width: 15px
+                        height: 15px
+                        margin-right: 10px
+                    span
+                        font-family: font_1
+                        font-style: normal
+                        font-weight: 500
+                        font-size: 12px
+                        line-height: 15px
+                        color: black
+        .div06
+            margin-top: 40px
+            width: 100%
+            height: 17px
+            display: flex
+            justify-content: space-between
+            span
+                font-family: font_1
+                font-style: normal
+                font-weight: 700
+                font-size: 14px
+                line-height: 17px
+                color: black
+            img
+                width: 14px
+                height: 14px
+        .div07
+            margin-top: 40px
+            width: 100%
+            height: 17px
+            display: flex
+            justify-content: space-between
+            span
+                font-family: font_1
+                font-style: normal
+                font-weight: 700
+                font-size: 14px
+                line-height: 17px
+                color: black
+            img
+                width: 14px
+                height: 14px
+        .footer
+            display: flex
+            flex-direction: column
+            justify-content: space-between
+            align-items: center
+            height: 69.8px
+            width: 100%
+            margin-top: 44px
+            .footbtn
+                width: 225px
+                height: 40px
+                background: linear-gradient(92.71deg, #0499DD 0%, #17C1BC 100%)
+                border-radius: 40px
+                display: flex
+                justify-content: center
+                align-items: center
+                border: 0
+                color: white
+                font-family: font_1
+                font-style: normal
+                font-weight: 700
+                font-size: 14px
+                line-height: 17px
+                position: relative
+                z-index: 1
+            .footerdiv
+                display: flex
+                justify-content: space-between
+                align-items: center
+                height: 19.8px
+                img
+                    width: 14px
+                    height: 14px
+                    margin-right: 6px
+                span
+                    font-family: font_1
+                    font-style: normal
+                    font-weight: 500
+                    font-size: 12px
+                    line-height: 15px
+                    color: #282828
+    .side2
+        height: 1398px
+        width: 69.5%
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        .heading
+            font-family: font_1
+            font-style: normal
+            font-weight: 700
+            font-size: 24px
+            line-height: 29px
+            color: #0499DD
+            height: 29px
+            width: 147px
+        .body
+            display: flex
+            flex-direction: column
+            justify-content: space-between
+            height: 1272px
+            width: 100%
+            .bb
+                background: #FFFFFF
+                box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.05)
+                border-radius: 10px
+                width: 100%
+                height: 303px
+                display: flex
+                img
+                    width: 30.5%
+                    height: 303px
+                .rec40phone
+                    display: none
+                div
+                    width: 69.5%
+                    height: 303px
+                    padding: 27px 43px 0px 43px
+                    display: flex
+                    flex-direction: column
+                    justify-content: flex-start
+                    .h01
+                        font-family: font_1
+                        font-style: normal
+                        font-weight: 500
+                        font-size: 12px
+                        line-height: 15px
+                        color: #FFC700
+                        padding: 0
+                        margin: 0
+                    .h02
+                        font-family: font_1
+                        font-style: normal
+                        font-weight: 700
+                        font-size: 18px
+                        line-height: 22px
+                        color: #282828
+                        padding: 0
+                        margin: 2px 0 20px 0
+                    .price
+                        width: 100%
+                        height: 35px
+                        display: flex
+                        flex-direction: row
+                        margin: 0
+                        padding: 0
+                        box-sizing: border-box
+                        .left_
+                            width: 90px
+                            height: 35px
+                            display: flex
+                            flex-direction: column
+                            justify-content: space-between
+                            align-items: flex-end
+                            padding: 0
+                            margin: 0
+                            .span2
+                                width: 87px
+                                height: 12px
+                                font-family: font_1
+                                font-style: normal
+                                font-weight: 500
+                                font-size: 10px
+                                line-height: 12px
+                                color: #282828
+                                marign-left: 3px
+                                text-align: right
+                            .p1
+                                width: 100%
+                                height: 23px
+                                display: flex
+                                flex-direction: row
+                                justify-content: space-between
+                                align-items: flex-start
+                                img
+                                    width: 22px
+                                    height: 22px
+                                span
+                                    font-family: font_1
+                                    font-style: normal
+                                    font-weight: 700
+                                    font-size: 18px
+                                    line-height: 22px
+                                    width: 62px
+                                    height: 22px
+                                    color: #0499DD
+                                    text-align: right
+                        .time
+                            height: 22px
+                            width: 97px
+                            display: flex
+                            flex-direction: row
+                            padding: 0
+                            margin: 0
+                            align-items: center
+                            justify-content: space-between
+                            img
+                                width: 15px
+                                height: 15px
+                            span
+                                font-family: font_1
+                                font-style: normal
+                                font-weight: 700
+                                font-size: 18px
+                                line-height: 22px
+                                color: #0499DD
+                                width: 76px
+                                height: 22px
+                        .middle_
+                            width: 89px
+                            height: 35px
+                            display: flex
+                            flex-direction: column
+                            justify-content: space-between
+                            align-items: flex-end
+                            padding: 0
+                            margin: 0
+                            margin-right: 40px
+                            margin-left: 10px
+                            .span2
+                                width: 100%
+                                height: 12px
+                                font-family: font_1
+                                font-style: normal
+                                font-weight: 500
+                                font-size: 10px
+                                line-height: 12px
+                                color: #282828
+                                text-align: left
+                                padding-left: 3px
+                            .p1
+                                width: 100%
+                                height: 23px
+                                display: flex
+                                flex-direction: row
+                                justify-content: space-between
+                                img
+                                    width: 22px
+                                    height: 22px
+                                span
+                                    font-family: font_1
+                                    font-style: normal
+                                    font-weight: 700
+                                    font-size: 18px
+                                    line-height: 22px
+                                    width: 62px
+                                    height: 22px
+                                    color: #0499DD
+                                    text-align: right
+                    .bodytext
+                        width: 100%
+                        height: 75px
+                        display: flex
+                        flex-direction: row
+                        padding: 0
+                        margin: 20px 0
+                        overflow: hidden
+                        img
+                            height: 75px
+                            width: 3px
+                            margin-right: 20px
+                        .btext
+                            height: 75px
+                            width: 431px
+                            font-family: font_1
+                            font-style: normal
+                            font-weight: 500
+                            font-size: 12px
+                            line-height: 15px
+                            color: #282828
+                            padding: 0
+                            margin: 0
+                    .footerbtn
+                        width: 100%
+                        height: 40px
+                        display: flex
+                        flex-direction: row
+                        padding: 0
+                        margin: 0
+                        .ftrbtn0
+                            display: flex
+                            justify-content: center
+                            align-items: center
+                            width: 160px
+                            height: 40px
+                            margin-right: 10px
+                            background: linear-gradient(92.71deg, #0499DD 0%, #17C1BC 100%)
+                            border-radius: 40px
+                            border: 0
+                            color: white
+                            font-family: font_1
+                            font-style: normal
+                            font-weight: 700
+                            font-size: 12px
+                            line-height: 15px
+                            position: relative
+                            z-index: 1
+                        .ftrbtn0::before
+                            position: absolute
+                            content: ''
+                            border-radius: 40px
+                            background-color: darken(#0499DD, 5%)
+                            z-index: -1
+                            transition: all 0.3s
+                            width: 0
+                            height: 100%
+                        .ftrbtn0:hover.ftrbtn0::before
+                            width: 100%
+
+                        img
+                            width: 40px
+                            height: 40px
+            .bbdiv3
+                div
+                    .footerbtn
+                        .heart
+                            display: none
+        .s2_footer
+            width: 100%
+            height: 17px
+            display: flex
+            justify-content: center
+            align-items: center
+            .ssdigit
+                width: 89px
+                height: 17px
+                cursor: pointer
+    .main_division03
+        width: 100%
+        height: 1398px
+        display: flex
+        justify-content: space-between
+        margin-top: 38px
+    .footerSectionLgMd
+        margin-top: 80px
+        width: 100%
+        height: 173px
+        padding: 0 9%
+        background-color: #EDEDED
+        display: flex
+        justify-content: space-between
+        align-items: center
+        .leftside
+            height: 114px
+            width: 28%
+            display: flex
+            justify-content: space-between
+            align-items: center
+            img
+                width: 80px
+                height: 114px
+            img:hover
+                filter: brightness(120%)
+            .leftsideBar
+                display: flex
+                flex-direction: column
+                box-sizing: border-box
+                justify-content: space-between
+                width: 124px
+                height: 67px
+                a
+                    color: black
+                a:hover
+                    text-decoration: none
+                    outline: none
+                .a1:hover
+                    color: #bc0000
+                .a2:hover
+                    color: #e59b06
+                .a3:hover
+                    color: #17c1bc
+                p
+                    font-family: font_1
+                    font-style: normal
+                    font-weight: 500
+                    font-size: 14px
+                    line-height: 17.07px
+                    color: black
+                    margin: 0
+                    padding: 0
+        .rightside
+            width: 45.3%
+            height: 72px
+            display: flex
+            justify-content: space-between
+            align-items: center
+            .rightsidebar01
+                width: 207px
+                height: 70px
+                display: flex
+                flex-flow: column
+                div
+                    width: 100%
+                    display: flex
+                    align-items: center
+                    justify-content: flex-start
+                    margin-bottom: 8px
+                    img
+                        width: 20px
+                        height: 20px
+                        margin-right: 9px
+                        cursor: pointer
+                    .imgxx
+                        width: 19px
+                        height: 19px
+                        margin-right: 9px
+                    p
+                        align-self: flex-end
+                        font-family: font_1
+                        font-style: normal
+                        font-weight: 500
+                        font-size: 14px
+                        line-height: 17.07px
+                        color: black
+                        padding: 0
+                        margin: 0
+                .marginner02
+                    margin-bottom: 0
+
+            .rightsidebar02
+                display: flex
+                flex-direction: column
+                justify-content: space-between
+                height: 72px
+                width: 173px
+                .mail
+                    width: 100%
+                    display: flex
+                    .imgxx
+                        width: 19px
+                        height: 19px
+                        margin-right: 9px
+                        cursor: pointer
+                    p
+                        align-self: flex-end
+                        font-family: font_1
+                        font-style: normal
+                        font-weight: 500
+                        font-size: 14px
+                        line-height: 17.07px
+                        color: black
+                        padding: 0
+                        margin: 0
+                .smlogos
+                    width: 112px
+                    display: flex
+                    align-items: flex-end
+                    box-sizing: border-box
+                    height: 38px
+                    img:hover
+                        filter: brightness(50%)
+                    #smlogo01
+                        width: 31.1px
+                        height: 20.2px
+                        cursor: pointer
+                        margin-bottom: 5px
+                    #smlogo02
+                        width: 32px
+                        height: 32px
+                        cursor: pointer
+                        margin-left: 9.34px
+                        margin-right: 6px
+                    #smlogo03
+                        width: 30px
+                        height: 30px
+                        box-sizing: border-box
+                        cursor: pointer
+                        margin-right: 5px
+
+@media screen and (max-width: 991px) and (min-width: 767px)
+    .padding-x
+        padding: 0 9%
+    .topdiv
+        width: 100%
+        height: 510px
+        background-image: url("../images/Rectangle 1(pg2_tablet).png")
+        position: relative
+        background-position: right
+        background-size: cover
+        box-sizing: border-box
+        background-repeat: no-repeat
+        .navigation
+            height: 516px
+            width: 100%
+            position: relative
+            top: 26px
+            box-sizing: border-box
+            .e_navbar01
+                width: 100%
+                position: relative
+                height: 57px
+                display: flex
+                justify-content: space-between
+                align-items: center
+                .logo:hover
+                    filter: brightness(50%)
+                .logo
+                    width: 40px
+                    height: 100%
+                .menubtn
+                    display: flex
+                    background-color: transparent
+                    border: 0
+                    #hamburgericon
+                        display: flex
+                        width: 40px
+                        height: 40px
+                .menu
+                    display: none
+                .navbar-collapse
+                    width: 100%
+                    top: 60px
+                    position: absolute
+                    .menubar
+                        display: flex
+                        flex-direction: column
+                        justify-content: space-between
+                        box-sizing: border-box
+                        width: 100%
+                        background: #4b49496c
+                        .clickedlist
+                            background-color: #ffc80086
+                        .menulist:hover
+                            filter: brightness(150%)
+                        .menulist
+                            list-style-type: none
+                            width: 100%
+                            .menulink
+                                margin-left: 1px
+                                text-decoration: none
+                                font-style: normal
+                                font-family: font_1
+                                font-weight: 500
+                                line-height: 17.07px
+                                font-size: 17px
+                                color: #fff
+            .nav_heading01
+                margin-top: 142px
+                width: 504px
+                height: 59px
+                font-family: font_1
+                font-weight: 700
+                font-style: normal
+                font-size: 48px
+                line-height: 58.51px
+                color: #fff
+                fill: solid
+    .division02
+        width: 100%
+        height: 353px
+        margin-top: 100px
+        display: flex
+        align-items: center
+        justify-content: center
+        box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.05)
+        div
+            height: 210px
+            width: 80.3%
+            display: flex
+            flex-direction: column
+            justify-content: space-between
+            align-items: center
+            .up
+                width: 100%
+                height: 30px
+                display: flex
+                flex-direction: column
+                justify-content: space-between
+                align-items: center
+                div
+                    height: 17px
+                    width: 100%
+                    display: flex
+                    justify-content: space-around
+                    flex-direction: row
+                    flex-wrap: wrap
+                    p
+                        font-family: font_1
+                        font-weight: 500
+                        font-size: 14px
+                        line-height: 17.07px
+                        color: black
+                    #upx
+                        color: #0499DD
+                img
+                    width: 100%
+                    height: 2px
+            .down
+                width: 100%
+                height: 120px
+                display: flex
+                flex-direction: row
+                justify-content: space-between
+                align-items: flex-start
+                box-sizing: border-box
+                flex-wrap: wrap
+                div
+                    width: 235px
+                    height: 50px
+                    border-radius: 10px
+                    display: flex
+                    flex-direction: row
+                    justify-content: space-between
+                    align-items: center
+                    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1)
+                    span
+                        font-style: normal
+                        font-family: font_1
+                        font-weight: 500
+                        line-height: 17.07px
+                        font-size: 14px
+                        height: 17px
+                .down01
+                    padding: 0 24px
+                    img
+                        width: 31px
+                        height: 31px
+                .down02
+                    padding: 0 25px
+                    img
+                        width: 20px
+                        height: 20px
+                .down03
+                    margin-top: auto
+                    padding: 0 27px
+                    img
+                        width: 23px
+                        height: 23px
+                .down04
+                    display: flex
+                    margin-top: auto
+                    box-sizing: border-box
+                    align-items: center
+                    background: linear-gradient(92.71deg, #0499DD 0%, #17C1BC 100%)
+                    span
+                        font-weight: 700
+                        color: white
+                        height: 17px
+                        width: 71px
+                        padding: 0 82px
+                .down04:hover
+                    cursor: pointer
+    .main_division03
+        width: 100%
+        height: 2912px
+        display: flex
+        flex-direction: column-reverse
+        margin-top: 100px
+        justify-content: space-between
+    .side2
+        height: 2072px
+        width: 100%
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        .heading
+            font-family: font_1
+            font-style: normal
+            font-weight: 700
+            font-size: 24px
+            line-height: 29px
+            color: #0499DD
+            height: 29px
+            width: 100%
+        .body
+            display: flex
+            flex-direction: column
+            justify-content: flex-start
+            height: 1896px
+            width: 100%
+            .bb
+                background: #FFFFFF
+                box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.05)
+                border-radius: 10px
+                width: 100%
+                height: 444px
+                display: flex
+                img
+                    width: 39%
+                    height: 444px
+                .rec40phone
+                    display: none
+                div
+                    width: 61%
+                    height: 444px
+                    padding: 27px 33px 57px 43px
+                    display: flex
+                    flex-direction: column
+                    justify-content: flex-start
+                    .h01
+                        font-family: font_1
+                        font-style: normal
+                        font-weight: 500
+                        font-size: 13px
+                        line-height: 15px
+                        color: #FFC700
+                        padding: 0
+                        margin: 0
+                    .h02
+                        font-family: font_1
+                        font-style: normal
+                        font-weight: 700
+                        font-size: 18px
+                        line-height: 22px
+                        color: #282828
+                        padding: 0
+                        margin: 1px 0 20px 0
+                    .price
+                        width: 100%
+                        height: 35px
+                        display: flex
+                        flex-direction: row
+                        margin: 0
+                        padding: 0
+                        box-sizing: border-box
+                        .left_
+                            width: 90px
+                            height: 35px
+                            display: flex
+                            flex-direction: column
+                            justify-content: space-between
+                            align-items: flex-end
+                            padding: 0
+                            margin: 0
+                            .span2
+                                width: 100%
+                                height: 12px
+                                font-family: font_1
+                                font-style: normal
+                                font-weight: 500
+                                font-size: 10px
+                                line-height: 12px
+                                color: #282828
+                                marign-left: 3px
+                                text-align: right
+                            .p1
+                                width: 100%
+                                height: 23px
+                                display: flex
+                                flex-direction: row
+                                justify-content: space-between
+                                align-items: flex-start
+                                img
+                                    width: 22px
+                                    height: 22px
+                                span
+                                    font-family: font_1
+                                    font-style: normal
+                                    font-weight: 700
+                                    font-size: 18px
+                                    line-height: 22px
+                                    width: 62px
+                                    height: 22px
+                                    color: #0499DD
+                                    text-align: right
+                        .time
+                            height: 22px
+                            width: 97px
+                            display: flex
+                            flex-direction: row
+                            padding: 0
+                            margin: 0
+                            align-items: center
+                            justify-content: space-between
+                            img
+                                width: 15px
+                                height: 15px
+                            span
+                                font-family: font_1
+                                font-style: normal
+                                font-weight: 700
+                                font-size: 18px
+                                line-height: 22px
+                                color: #0499DD
+                                width: 76px
+                                height: 22px
+                        .middle_
+                            width: 89px
+                            height: 35px
+                            display: flex
+                            flex-direction: column
+                            justify-content: space-between
+                            align-items: flex-end
+                            padding: 0
+                            margin: 0 10px
+                            .span2
+                                width: 100%
+                                height: 12px
+                                font-family: font_1
+                                font-style: normal
+                                font-weight: 500
+                                font-size: 10px
+                                line-height: 12px
+                                color: #282828
+                                text-align: left
+                                padding-left: 3px
+                            .p1
+                                width: 100%
+                                height: 23px
+                                display: flex
+                                flex-direction: row
+                                justify-content: space-between
+                                img
+                                    width: 22px
+                                    height: 22px
+                                span
+                                    font-family: font_1
+                                    font-style: normal
+                                    font-weight: 700
+                                    font-size: 18px
+                                    line-height: 22px
+                                    width: 62px
+                                    height: 22px
+                                    color: #0499DD
+                                    text-align: right
+                    .bodytext
+                        width: 100%
+                        height: 144px
+                        display: flex
+                        flex-direction: row
+                        padding: 0
+                        margin-top: 20px
+                        margin-bottom: 40px
+                        img
+                            height: 144px
+                            width: 3px
+                            margin-right: 20px
+                        .btext
+                            height: 144px
+                            width: 93.1%
+                            font-family: font_1
+                            font-style: normal
+                            font-weight: 500
+                            font-size: 13px
+                            line-height: 16px
+                            color: #282828
+                            padding: 0
+                            margin: 0
+                    .footerbtn
+                        width: 100%
+                        height: 40px
+                        display: flex
+                        flex-direction: row
+                        padding: 0
+                        margin: 0
+                        .ftrbtn0
+                            display: flex
+                            justify-content: center
+                            align-items: center
+                            width: 160px
+                            height: 40px
+                            margin-right: 10px
+                            background: linear-gradient(92.71deg, #0499DD 0%, #17C1BC 100%)
+                            border-radius: 40px
+                            border: 0
+                            color: white
+                            font-family: font_1
+                            font-style: normal
+                            font-weight: 700
+                            font-size: 12px
+                            line-height: 15px
+                            z-index: 1
+                            position: relative
+                        .ftrbtn0::before
+                            position: absolute
+                            content: ''
+                            border-radius: 40px
+                            background-color: darken(#0499DD, 5%)
+                            z-index: -1
+                            transition: all 0.3s
+                            width: 0
+                            height: 100%
+                        .ftrbtn0:hover.ftrbtn0::before
+                            width: 100%
+
+                        img
+                            width: 40px
+                            height: 40px
+            .bbdiv1
+                margin-bottom: 40px
+            .bbdiv3
+                margin-bottom: 79px
+                div
+                    .footerbtn
+                        .blue_heart
+                            display: none
+        .s2_footer
+            width: 100%
+            height: 17px
+            display: flex
+            justify-content: center
+            align-items: center
+            .ssdigit
+                width: 89px
+                height: 17px
+                cursor: pointer
+    .side_divison03
+        height: 690px
+        width: 100%
+        box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.05)
+        border-radius: 10px
+        padding: 25px 36px 49px 34px
+        box-sizing: border-box
+        display: flex
+        flex-direction: column
+        flex-wrap: wrap
+
+        span
+            font-family: font_1
+            font-size: 14px
+            font-weight: 700
+            color: #0499DD
+            line-height: 17.07px
+            width: 70px
+            height: 17px
+            order: -11
+        .div01
+            width: 41.8%
+            margin-top: 31px
+            height: 102px
+            display: flex
+            flex-direction: column
+            justify-content: space-between
+            order: -10
+            .dd01
+                display: flex
+                justify-content: space-between
+                height: 17px
+                width: 100%
+                align-items: center
+                span
+                    font-family: font_1
+                    font-style: normal
+                    font-weight: 700
+                    font-size: 14px
+                    line-height: 17px
+                    color: black
+                img
+                    width: 16px
+                    height: 2px
+            .dd02
+                width: 100%
+                display: flex
+                justify-content: space-between
+                button
+                    width: 105px
+                    height: 30px
+                    border: 1px solid #EDEDED
+                    box-sizing: border-box
+                    color: black
+                    font-size: 12px
+                    font-weight: 500
+                    font-family: font_1
+                    border-radius: 40px
+                    background-color: white
+                    line-height: 15px
+                    text-align: left
+                    padding-left: 18px
+                    transition: all .3s
+                button:hover
+                    background-color: #0499DD
+                    color: white
+            .polyz
+                width: 100%
+                height: 15px
+                position: relative
+                display: flex
+                align-items: center
+                #back1
+                    width: 100%
+                    height: 3px
+                    border: 3px
+                    position: absolute
+                    z-index: -99999
+                #e1
+                    margin-left: 28px
+                #l9
+                    height: 3px
+        .div03_img
+            width: 41.8%
+            height: 1px
+            margin: 40px 0
+        .line001
+            order: -9
+        .line002
+            order: -7
+        .line003
+            order: -5
+            margin-bottom: 44px
+        .line004
+            order: -2
+            align-self: flex-end
+        .line005
+            order: 0
+            align-self: flex-end
+        .div04
+            height: 178px
+            width: 41.8%
+            display: flex
+            flex-direction: column
+            justify-content: space-between
+            margin-top: 48px
+            order: -3
+            align-self: flex-end
+
+            .top04
+                display: flex
+                justify-content: space-between
+                height: 17px
+                width: 100%
+                align-items: center
+                span
+                    font-family: font_1
+                    font-style: normal
+                    font-weight: 700
+                    font-size: 14px
+                    line-height: 17px
+                    color: black
+                    width: 157px
+                img
+                    width: 16px
+                    height: 2px
+            .btns
+                height: 141px
+                width: 100%
+                display: flex
+                flex-wrap: wrap
+                justify-content: space-between
+                button
+                    width: 32.4% //73px
+                    height: 30px
+                    border: 1px solid #EDEDED
+                    box-sizing: border-box
+                    border-radius: 40px
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    font-family: font_1
+                    font-style: normal
+                    font-weight: 500
+                    font-size: 12px
+                    line-height: 15px
+                    color: #282828
+                    background-color: white
+                    transition: all .3s
+                button:hover
+                    background-color: #0499DD
+                    color: white
+                .x5
+                    background: #0499DD
+                    color: white
+                    border: 0
+                .x10
+                    width: 66.2% //149px
+        .div05
+            height: 132px
+            width: 41.8%
+            display: flex
+            flex-direction: column
+            justify-content: space-between
+            order: -8
+            .dd01
+                display: flex
+                justify-content: space-between
+                height: 17px
+                width: 100%
+                align-items: center
+                span
+                    font-family: font_1
+                    font-style: normal
+                    font-weight: 700
+                    font-size: 14px
+                    line-height: 17px
+                    color: black
+                img
+                    width: 16px
+                    height: 2px
+            .radio
+                display: flex
+                flex-direction: column
+                height: 95px
+                width: 100%
+                justify-content: space-between
+                div
+                    display: flex
+                    align-items: center
+                    justify-content: flex-end
+                    flex-direction: row-reverse
+                    width: 100%
+                    height: 15px
+                    input
+                        width: 15px
+                        height: 15px
+                        margin-right: 10px
+                    span
+                        width: 103px
+                        font-family: font_1
+                        font-style: normal
+                        font-weight: 500
+                        font-size: 12px
+                        line-height: 15px
+                        color: black
+        .div06
+            width: 41.7%
+            height: 17px
+            display: flex
+            justify-content: space-between
+            order: -1
+            align-self: flex-end
+            span
+                font-family: font_1
+                font-style: normal
+                font-weight: 700
+                font-size: 14px
+                line-height: 17px
+                color: black
+            img
+                width: 14px
+                height: 14px
+        .div07
+            width: 41.7%
+            height: 17px
+            display: flex
+            justify-content: space-between
+            order: -6
+            span
+                font-family: font_1
+                font-style: normal
+                font-weight: 700
+                font-size: 14px
+                line-height: 17px
+                color: black
+            img
+                width: 14px
+                height: 14px
+        .footer
+            display: flex
+            flex-direction: column
+            justify-content: space-between
+            align-items: center
+            height: 69.8px
+            width: 41.8%
+            order: -4
+            .footbtn
+                width: 225px
+                height: 40px
+                background: linear-gradient(92.71deg, #0499DD 0%, #17C1BC 100%)
+                border-radius: 40px
+                display: flex
+                justify-content: center
+                align-items: center
+                border: 0
+                color: white
+                font-family: font_1
+                font-style: normal
+                font-weight: 700
+                font-size: 14px
+                line-height: 17px
+                position: relative
+                z-index: 1
+            .footerdiv
+                display: flex
+                flex-direction: row-reverse
+                justify-content: center
+                align-items: center
+                height: 19.8px
+
+                img
+                    width: 14px
+                    height: 14px
+                    margin-right: 6px
+                span
+                    margin-top: 2px
+                    width: 120px
+                    font-family: font_1
+                    font-style: normal
+                    font-weight: 500
+                    font-size: 12px
+                    line-height: 15px
+                    color: #282828
+    .footerSectionLgMd
+        margin-top: 150px
+        display: flex
+        justify-content: space-between
+        align-items: center
+        background-color: #EDEDED
+        width: 100%
+        height: 173px
+        .leftside
+            height: 93px
+            width: 214px
+            display: flex
+            justify-content: space-between
+            align-items: center
+            img
+                width: 65px
+                height: 93px
+            img:hover
+                filter: brightness(120%)
+            .leftsideBar
+                align-self: flex-start
+                margin-top: 13px
+                display: flex
+                flex-direction: column
+                box-sizing: border-box
+                justify-content: space-between
+                width: 107px
+                height: 55px
+                a
+                    color: black
+                a:hover
+                    text-decoration: none
+                    outline: none
+                .a1:hover
+                    color: #bc0000
+                .a2:hover
+                    color: #e59b06
+                .a3:hover
+                    color: #17c1bc
+                p
+                    font-family: font_1
+                    font-style: normal
+                    font-weight: 500
+                    font-size: 12px
+                    line-height: 14.63px
+                    color: black
+                    margin: 0
+                    padding: 0
+        .rightside
+            width: 359px
+            height: 72px
+            display: flex
+            justify-content: space-between
+            align-items: center
+            .rightsidebar01
+                width: 181px
+                height: 69px
+                display: flex
+                flex-flow: column
+                align-items: flex-start
+                div
+                    width: 100%
+                    display: flex
+                    align-items: center
+                    justify-content: flex-start
+                    margin-bottom: 5px
+                    img
+                        width: 20px
+                        height: 20px
+                        margin-right: 9px
+                        cursor: pointer
+                    .imgxx
+                        width: 19px
+                        height: 19px
+                        margin-right: 9px
+                    p
+                        align-self: flex-end
+                        font-family: font_1
+                        font-style: normal
+                        font-weight: 500
+                        font-size: 12px
+                        line-height: 14.63px
+                        color: black
+                        padding: 0
+                        margin: 0
+                .marginner02
+                    margin-bottom: 0
+            .rightsidebar02
+                display: flex
+                flex-direction: column
+                justify-content: space-between
+                height: 72px
+                width: 149px
+                .mail
+                    width: 100%
+                    display: flex
+                    .imgxx
+                        width: 19px
+                        height: 19px
+                        margin-right: 9px
+                        cursor: pointer
+                    p
+                        align-self: flex-end
+                        font-family: font_1
+                        font-style: normal
+                        font-weight: 500
+                        font-size: 12px
+                        line-height: 14.63px
+                        color: black
+                        padding: 0
+                        margin: 0
+                .smlogos
+                    width: 112px
+                    display: flex
+                    align-items: center
+                    height: 38px
+                    img:hover
+                        filter: brightness(50%)
+                    #smlogo01
+                        width: 31.1px
+                        height: 20.2px
+                        cursor: pointer
+                        align-self: flex-end
+                        margin-bottom: 7px
+                    #smlogo02
+                        width: 32px
+                        height: 32px
+                        cursor: pointer
+                        margin-left: 9.34px
+                        margin-right: 6px
+                    #smlogo03
+                        width: 30px
+                        height: 30px
+                        cursor: pointer
+
+@media screen and (max-width: 766px)
+    .padding-x
+        padding: 0 5.6%
+    .topdiv
+        width: 100%
+        height: 370px
+        background-image: url("../images/Rectangle 1(pg2_phone).png")
+        position: relative
+        background-position: right
+        background-size: cover
+        box-sizing: border-box
+        background-repeat: no-repeat
+        .navigation
+            height: 182px
+            width: 100%
+            position: relative
+            top: 26px
+            box-sizing: border-box
+            .e_navbar01
+                width: 100%
+                position: relative
+                height: 57px
+                display: flex
+                justify-content: space-between
+                align-items: center
+                .logo:hover
+                    filter: brightness(150%)
+                .logo
+                    width: 40px
+                    height: 100%
+                .menubtn
+                    display: flex
+                    background-color: transparent
+                    border: 0
+                    #hamburgericon
+                        display: flex
+                        width: 40px
+                        height: 40px
+                .menu
+                    display: none
+                .navbar-collapse
+                    width: 100%
+                    top: 60px
+                    position: absolute
+                    .menubar
+                        display: flex
+                        flex-direction: column
+                        justify-content: space-between
+                        box-sizing: border-box
+                        width: 100%
+                        background: #4b49496c
+                        .clickedlist
+                            background-color: #ffc80086
+                        .menulist:hover
+                            filter: brightness(150%)
+                        .menulist
+                            list-style-type: none
+                            width: 100%
+                            .menulink
+                                margin-left: 1px
+                                text-decoration: none
+                                font-style: normal
+                                font-family: font_1
+                                font-weight: 500
+                                line-height: 17.07px
+                                font-size: 17px
+                                color: #fff
+            .nav_heading01
+                margin-top: 81px
+                width: 378px
+                height: 44px
+                font-family: font_1
+                font-weight: 700
+                font-style: normal
+                font-size: 36px
+                line-height: 43.88px
+                color: #fff
+                fill: solid
+    .division02
+        width: 100%
+        height: 480px
+        margin-top: 60px
+        display: flex
+        align-items: center
+        justify-content: center
+        box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.05)
+        div
+            height: 350px
+            width: 95%
+            display: flex
+            flex-direction: column
+            justify-content: space-between
+            align-items: center
+            .up
+                width: 100%
+                height: 30px
+                display: flex
+                flex-direction: column
+                justify-content: space-between
+                align-items: center
+                div
+                    width: 100%
+                    height: 15px
+                    display: flex
+                    justify-content: space-between
+                    flex-direction: row
+                    flex-wrap: wrap
+                    p
+                        font-family: font_1
+                        font-weight: 500
+                        font-size: 12px
+                        line-height: 14.63px
+                        color: black
+                    #upx
+                        color: #0499DD
+                img
+                    width: 100%
+                    height: 2px
+            .down
+                width: 80.2%
+                height: 260px
+                display: flex
+                justify-content: space-between
+                box-sizing: border-box
+                flex-direction: column
+                div
+                    width: 100%
+                    height: 50px
+                    border-radius: 10px
+                    display: flex
+                    flex-direction: row
+                    justify-content: space-between
+                    align-items: center
+                    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1)
+                    span
+                        font-style: normal
+                        font-family: font_1
+                        font-weight: 500
+                        line-height: 17.07px
+                        font-size: 14px
+                        height: 17px
+                        color: black
+                .down01
+                    padding: 0 24px
+                    img
+                        width: 31px
+                        height: 31px
+                .down02
+                    padding: 0 25px
+                    img
+                        width: 20px
+                        height: 20px
+                .down03
+                    padding: 0 27px
+                    img
+                        width: 23px
+                        height: 23px
+                .down04
+                    display: flex
+                    box-sizing: border-box
+                    align-items: center
+                    justify-content: center
+                    background: linear-gradient(92.71deg, #0499DD 0%, #17C1BC 100%)
+                    span
+                        font-weight: 700
+                        color: white
+                        height: 17px
+                        width: 71px
+                .down04:hover
+                    cursor: pointer
+    .main_division03
+        width: 100%
+        height: 4164px
+        display: flex
+        flex-direction: column-reverse
+        margin-top: 60px
+        justify-content: space-between
+    .side2
+        height: 3056px
+        width: 100%
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        .heading
+            font-family: font_1
+            font-style: normal
+            font-weight: 700
+            font-size: 24px
+            line-height: 29px
+            color: #0499DD
+            height: 29px
+            width: 100%
+        .body
+            display: flex
+            flex-direction: column
+            justify-content: space-between
+            height: 2880px
+            width: 100%
+            .bb
+                background: #FFFFFF
+                box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.05)
+                border-radius: 10px
+                width: 100%
+                height: 690px
+                display: flex
+                flex-direction: column
+                img
+                    width: 100%
+                    height: 240px
+                .rec40
+                    display: none
+                div
+                    width: 100%
+                    height: 450px
+                    padding: 24px 39px 66px 36px
+                    display: flex
+                    flex-direction: column
+                    justify-content: flex-start
+                    .h01
+                        font-family: font_1
+                        font-style: normal
+                        font-weight: 500
+                        font-size: 13px
+                        line-height: 15px
+                        color: #FFC700
+                        padding: 0
+                        margin: 0
+                    .h02
+                        font-family: font_1
+                        font-style: normal
+                        font-weight: 700
+                        font-size: 18px
+                        line-height: 22px
+                        color: #282828
+                        padding: 0
+                        margin: 1px 0 20px 0
+                    .price
+                        width: 100%
+                        height: 35px
+                        display: flex
+                        flex-direction: row
+                        margin: 0
+                        padding: 0
+                        box-sizing: border-box
+                        .left_
+                            width: 90px
+                            height: 35px
+                            display: flex
+                            flex-direction: column
+                            justify-content: space-between
+                            align-items: flex-end
+                            padding: 0
+                            margin: 0
+                            .span2
+                                width: 100%
+                                height: 12px
+                                font-family: font_1
+                                font-style: normal
+                                font-weight: 500
+                                font-size: 10px
+                                line-height: 12px
+                                color: #282828
+                                marign-left: 3px
+                                text-align: right
+                            .p1
+                                width: 100%
+                                height: 23px
+                                display: flex
+                                flex-direction: row
+                                justify-content: space-between
+                                align-items: flex-start
+                                img
+                                    width: 22px
+                                    height: 22px
+                                span
+                                    font-family: font_1
+                                    font-style: normal
+                                    font-weight: 700
+                                    font-size: 18px
+                                    line-height: 22px
+                                    width: 62px
+                                    height: 22px
+                                    color: #0499DD
+                                    text-align: right
+                        .time
+                            height: 22px
+                            width: 97px
+                            display: flex
+                            flex-direction: row
+                            padding: 0
+                            margin: 0
+                            align-items: center
+                            justify-content: space-between
+                            img
+                                width: 15px
+                                height: 15px
+                            span
+                                font-family: font_1
+                                font-style: normal
+                                font-weight: 700
+                                font-size: 18px
+                                line-height: 22px
+                                color: #0499DD
+                                width: 76px
+                                height: 22px
+                        .middle_
+                            width: 89px
+                            height: 35px
+                            display: flex
+                            flex-direction: column
+                            justify-content: space-between
+                            align-items: flex-end
+                            padding: 0
+                            margin: 0 19px 0 10px
+                            .span2
+                                width: 100%
+                                height: 12px
+                                font-family: font_1
+                                font-style: normal
+                                font-weight: 500
+                                font-size: 10px
+                                line-height: 12px
+                                color: #282828
+                                text-align: left
+                                padding-left: 3px
+                            .p1
+                                width: 100%
+                                height: 23px
+                                display: flex
+                                flex-direction: row
+                                justify-content: space-between
+                                img
+                                    width: 22px
+                                    height: 22px
+                                span
+                                    font-family: font_1
+                                    font-style: normal
+                                    font-weight: 700
+                                    font-size: 18px
+                                    line-height: 22px
+                                    width: 62px
+                                    height: 22px
+                                    color: #0499DD
+                                    text-align: right
+                    .bodytext
+                        width: 100%
+                        height: 144px
+                        display: flex
+                        flex-direction: row
+                        padding: 0
+                        margin-top: 20px
+                        margin-bottom: 40px
+                        img
+                            height: 144px
+                            width: 3px
+                            margin-right: 24px
+                        .btext
+                            height: 144px
+                            width: 92.1%
+                            font-family: font_1
+                            font-style: normal
+                            font-weight: 500
+                            font-size: 13px
+                            line-height: 16px
+                            color: #282828
+                            padding: 0
+                            margin: 0
+                    .footerbtn
+                        width: 100%
+                        height: 40px
+                        display: flex
+                        flex-direction: row
+                        padding: 0
+                        margin: 0
+                        .ftrbtn0
+                            display: flex
+                            justify-content: center
+                            align-items: center
+                            width: 244px
+                            height: 40px
+                            margin-right: 21px
+                            background: linear-gradient(92.71deg, #0499DD 0%, #17C1BC 100%)
+                            border-radius: 40px
+                            border: 0
+                            color: white
+                            font-family: font_1
+                            font-style: normal
+                            font-weight: 700
+                            font-size: 12px
+                            line-height: 15px
+                            z-index: 1
+                            position: relative
+                        .ftrbtn0::before
+                            position: absolute
+                            content: ''
+                            border-radius: 40px
+                            background-color: darken(#0499DD, 5%)
+                            z-index: -1
+                            transition: all 0.3s
+                            width: 0
+                            height: 100%
+                        .ftrbtn0:hover.ftrbtn0::before
+                            width: 100%
+                        img
+                            width: 40px
+                            height: 40px
+            .bbdiv3
+                div
+                    .footerbtn
+                        .blue_heart
+                            display: none
+        .s2_footer
+            width: 100%
+            height: 17px
+            display: flex
+            justify-content: center
+            align-items: center
+            .ssdigit
+                width: 89px
+                height: 17px
+                cursor: pointer
+    .side_divison03
+        height: 1018px
+        width: 100%
+        box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.05)
+        border-radius: 10px
+        padding: 25px 64px
+        box-sizing: border-box
+        display: flex
+        flex-direction: column
+        align-items: center
+        span
+            font-family: font_1
+            font-size: 14px
+            font-weight: 700
+            color: #0499DD
+            line-height: 17.07px
+        .div01
+            margin-top: 31px
+            height: 102px
+            display: flex
+            flex-direction: column
+            justify-content: space-between
+            width: 100%
+            .dd01
+                display: flex
+                justify-content: space-between
+                height: 17px
+                width: 100%
+                align-items: center
+                span
+                    font-family: font_1
+                    font-style: normal
+                    font-weight: 700
+                    font-size: 14px
+                    line-height: 17px
+                    color: black
+                img
+                    width: 16px
+                    height: 2px
+            .dd02
+                width: 100%
+                display: flex
+                justify-content: space-between
+                button
+                    width: 105px
+                    height: 30px
+                    border: 1px solid #EDEDED
+                    box-sizing: border-box
+                    color: black
+                    font-size: 12px
+                    font-weight: 500
+                    font-family: font_1
+                    border-radius: 40px
+                    background-color: white
+                    line-height: 15px
+                    text-align: left
+                    padding-left: 18px
+                    transition: all .3s
+                button:hover
+                    background-color: #0499DD
+                    color: white
+            .polyz
+                width: 100%
+                height: 15px
+                position: relative
+                display: flex
+                align-items: center
+                #back1
+                    width: 100%
+                    height: 3px
+                    border: 3px
+                    position: absolute
+                    z-index: -99999
+                #e1
+                    margin-left: 28px
+                #l9
+                    width: 30.5%
+                    height: 3px
+        .div03_img
+            width: 100%
+            height: 1px
+            margin: 40px
+        .div04
+            height: 178px
+            width: 100%
+            display: flex
+            flex-direction: column
+            justify-content: space-between
+            .top04
+                display: flex
+                justify-content: space-between
+                height: 17px
+                width: 100%
+                align-items: center
+                span
+                    font-family: font_1
+                    font-style: normal
+                    font-weight: 700
+                    font-size: 14px
+                    line-height: 17px
+                    color: black
+                img
+                    width: 16px
+                    height: 2px
+            .btns
+                height: 141px
+                width: 100%
+                display: flex
+                flex-wrap: wrap
+                justify-content: space-between
+                button
+                    width: 32.4% //73px
+                    height: 30px
+                    border: 1px solid #EDEDED
+                    box-sizing: border-box
+                    border-radius: 40px
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    font-family: font_1
+                    font-style: normal
+                    font-weight: 500
+                    font-size: 12px
+                    line-height: 15px
+                    color: #282828
+                    background-color: white
+                    transition: all .3s
+                button:hover
+                    background-color: #0499DD
+                    color: white
+                .x5
+                    background: #0499DD
+                    color: white
+                    border: 0
+                .x10
+                    width: 66.2% //149px
+        .div05
+            height: 132px
+            width: 100%
+            display: flex
+            flex-direction: column
+            justify-content: space-between
+            .dd01
+                display: flex
+                justify-content: space-between
+                height: 17px
+                width: 100%
+                align-items: center
+                span
+                    font-family: font_1
+                    font-style: normal
+                    font-weight: 700
+                    font-size: 14px
+                    line-height: 17px
+                    color: black
+                img
+                    width: 16px
+                    height: 2px
+            .radio
+                display: flex
+                flex-direction: column
+                height: 95px
+                width: 100%
+                justify-content: space-between
+                div
+                    display: flex
+                    align-items: center
+                    input
+                        width: 15px
+                        height: 15px
+                        margin-right: 10px
+                    span
+                        font-family: font_1
+                        font-style: normal
+                        font-weight: 500
+                        font-size: 12px
+                        line-height: 15px
+                        color: black
+        .div06
+
+            width: 100%
+            height: 17px
+            display: flex
+            justify-content: space-between
+            span
+                font-family: font_1
+                font-style: normal
+                font-weight: 700
+                font-size: 14px
+                line-height: 17px
+                color: black
+            img
+                width: 14px
+                height: 14px
+        .div07
+            width: 100%
+            height: 17px
+            display: flex
+            justify-content: space-between
+            span
+                font-family: font_1
+                font-style: normal
+                font-weight: 700
+                font-size: 14px
+                line-height: 17px
+                color: black
+            img
+                width: 14px
+                height: 14px
+        .footer
+            display: flex
+            flex-direction: column
+            justify-content: space-between
+            align-items: flex-start
+            height: 69.8px
+            width: 100%
+            .footbtn
+                width: 252px
+                height: 40px
+                background: linear-gradient(92.71deg, #0499DD 0%, #17C1BC 100%)
+                border-radius: 40px
+                display: flex
+                padding-left: 74px
+                align-items: center
+                border: 0
+                color: white
+                font-family: font_1
+                font-style: normal
+                font-weight: 700
+                font-size: 14px
+                line-height: 17px
+                position: relative
+                transition: all .3s
+            .footbtn:hover
+                background: #0499DD
+            .footbtn::before
+                display: none
+            .footerdiv
+                display: flex
+                justify-content: space-between
+                align-items: center
+                height: 19.8px
+                margin-left: 37px
+                img
+                    width: 14px
+                    height: 14px
+                    margin-right: 6px
+                span
+                    font-family: font_1
+                    font-style: normal
+                    font-weight: 500
+                    font-size: 12px
+                    line-height: 15px
+                    color: #282828
+    .footerSectionLgMd
+        display: none
+    .footerSectionMobile
+        margin-top: 150px
+        width: 100%
+        height: 412px
+        background-color: #EDEDED
+        display: flex
+        flex-direction: column
+        box-sizing: border-box
+        .footer01
+            margin-top: 47.57px
+            height: 161px
+            width: 100%
+            display: flex
+            flex-direction: column
+            justify-content: space-between
+            align-items: center
+            img
+                width: 79px
+                height: 113px
+            img:hover
+                filter: brightness(120%)
+            .smlogos
+                width: 112px
+                display: flex
+                align-items: center
+                height: 38px
+                img:hover
+                    filter: brightness(50%)
+                #smlogo01
+                    width: 31.1px
+                    height: 20.2px
+                    cursor: pointer
+                    align-self: flex-end
+                    margin-bottom: 7px
+                #smlogo02
+                    width: 32px
+                    height: 32px
+                    cursor: pointer
+                    margin-left: 9.34px
+                    margin-right: 6px
+                #smlogo03
+                    width: 30px
+                    height: 30px
+                    cursor: pointer
+        .footer02
+            box-sizing: border-box
+            margin-top: 65.35px
+            padding: 0 5.6%
+            display: flex
+            justify-content: space-between
+            .left02
+                display: flex
+                flex-direction: column
+                box-sizing: border-box
+                justify-content: space-between
+                width: 107px
+                height: 55px
+                a
+                    color: black
+                a:hover
+                    text-decoration: none
+                    outline: none
+                .a1:hover
+                    color: #bc0000
+                .a2:hover
+                    color: #e59b06
+                .a3:hover
+                    color: #17c1bc
+                p
+                    font-family: font_1
+                    font-style: normal
+                    font-weight: 500
+                    font-size: 12px
+                    line-height: 14.63px
+                    color: black
+                    margin: 0
+                    padding: 0
+
+            .right02
+                width: 180px
+                height: 94px
+                display: flex
+                flex-direction: column
+                div
+                    width: 100%
+                    display: flex
+                    align-items: center
+                    justify-content: flex-start
+                    margin-bottom: 5.08px
+                    img
+                        width: 20px
+                        height: 20px
+                        margin-right: 6.29px
+                        cursor: pointer
+                    .imgxx
+                        width: 19px
+                        height: 19px
+                        margin-right: 5px
+                    p
+                        font-family: font_1
+                        font-style: normal
+                        font-weight: 500
+                        font-size: 12px
+                        line-height: 14.63px
+                        color: black
+                        padding: 0
+                        margin: 0
