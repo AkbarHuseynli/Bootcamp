@@ -359,13 +359,12 @@
 
 .Section4 .cards04 .cardx {
   width: 49%;
-  height: 134px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -391,7 +390,6 @@
 }
 
 .Section4 .cards04 .cardx .text04body {
-  height: 102px;
   font-family: font_1;
   font-weight: 500;
   font-style: normal;
@@ -401,6 +399,7 @@
 }
 
 .Section4 .footer04 {
+  margin-top: 60px;
   width: 100%;
   height: 104px;
   display: -webkit-box;
@@ -410,9 +409,6 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -428,6 +424,7 @@
   text-align: center;
   height: 34px;
   width: 550px;
+  margin-bottom: 20px;
 }
 
 .Section03 {
@@ -1616,6 +1613,58 @@ p {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
   }
+  .Section4 .cards04 .cardx1 {
+    -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+            order: 0;
+    height: 117px;
+  }
+  .Section4 .cards04 .cardx2 {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    margin-top: 40px;
+    height: 100px;
+  }
+  .Section4 .cards04 .cardx3 {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    margin-top: 40px;
+    height: 117px;
+  }
+  .Section4 .cards04 .cardx4 {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+    margin-top: 40px;
+    height: 100px;
+  }
+  .Section4 .footer04 {
+    margin-top: 60px;
+    height: 138px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .Section4 .footer04 .footertext04 {
+    padding: 0 4%;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    height: 34px;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 17.07px;
+    margin-bottom: 20px;
+  }
   .ImageSection06 .position01 {
     display: none;
   }
@@ -2471,13 +2520,9 @@ p {
             flex-direction: column;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
   }
   .Section4 .cards04 .cardx {
     width: 100%;
-    height: 134px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2486,6 +2531,58 @@ p {
             justify-content: flex-start;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
+  }
+  .Section4 .cards04 .cardx img {
+    width: 75px;
+    height: 74px;
+    margin-right: 20px;
+  }
+  .Section4 .cards04 .cardx #img04 {
+    height: 66px;
+  }
+  .Section4 .cards04 .cardx .text04head {
+    font-family: font_1;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 21.94px;
+    color: #0499DD;
+    margin-bottom: 10px;
+  }
+  .Section4 .cards04 .cardx .text04body {
+    font-family: font_1;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 15.85px;
+    color: black;
+  }
+  .Section4 .cards04 .cardx1 {
+    -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+            order: 0;
+    height: 176px;
+  }
+  .Section4 .cards04 .cardx2 {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    margin-top: 40px;
+    height: 144px;
+  }
+  .Section4 .cards04 .cardx3 {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    margin-top: 40px;
+    height: 160px;
+  }
+  .Section4 .cards04 .cardx4 {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+    margin-top: 40px;
+    height: 128px;
   }
   .Section4 .footer04 {
     margin-top: 60px;
@@ -2501,8 +2598,7 @@ p {
             align-items: center;
   }
   .Section4 .footer04 .footertext04 {
-    padding: 0 4%;
-    width: 100%;
+    width: 380px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     height: 48px;
@@ -2510,6 +2606,7 @@ p {
     font-weight: 500;
     text-align: center;
     line-height: 15.85px;
+    margin-bottom: 40px;
   }
   .Section05, .Section02, .Section07 {
     padding: 0 5.6%;
