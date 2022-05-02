@@ -192,7 +192,7 @@ p {
             justify-content: space-between;
     margin-top: 126px;
     height: 157px;
-    width: 72.5%;
+    width: 100%;
   }
   .topdiv .navigation .nav_headings .nh1 {
     font-family: font_1;
@@ -209,6 +209,10 @@ p {
     font-size: 48px;
     line-height: 59px;
     color: #FFFFFF;
+  }
+  .topdiv .navigation .nav_headings .nh2 p {
+    pargin: 0;
+    margin: 0;
   }
   .topdiv .navigation .nav_button {
     margin-top: 40px;
@@ -1281,6 +1285,16 @@ p {
   .Section5 .bodydivs5 .ycard4 .undercard {
     width: 210px;
   }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1027px) {
+  .Section5 .bodydivs5 .ycard4 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 991px) {
   .Section5 .bodydivs5 .ycard5 .undercard .pricediv {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1292,6 +1306,17 @@ p {
         -ms-flex-pack: center;
             justify-content: center;
   }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1243px) {
+  .Section5 .bodydivs5 .ycard5 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+  }
+}
+
+@media screen and (min-width: 991px) {
   .Section6 {
     margin: 150px 0;
     height: 458px;
@@ -1738,6 +1763,9 @@ p {
     height: 245px;
     margin-right: 28px;
   }
+  .Sectionbt78 .cards .card2 #pxx2 {
+    display: none;
+  }
   .Sectionbt78 .cards .card2 div {
     width: 395px;
     display: -webkit-box;
@@ -1946,6 +1974,10 @@ p {
     font-size: 36px;
     line-height: 44px;
     color: #FFFFFF;
+  }
+  .topdiv .navigation .nav_headings .nh2 p {
+    pargin: 0;
+    margin: 0;
   }
   .topdiv .navigation .nav_button {
     margin-top: 70px;
@@ -3307,6 +3339,9 @@ p {
     height: 168px;
     margin-right: 20px;
   }
+  .Sectionbt78 .cards .card2 #pxx {
+    display: none;
+  }
   .Sectionbt78 .cards .card2 div {
     width: 269px;
     display: -webkit-box;
@@ -3493,11 +3528,7 @@ p {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
     margin-top: 237px;
-    height: 171px;
     width: 100%;
   }
   .topdiv .navigation .nav_headings .nh1 {
@@ -3507,6 +3538,7 @@ p {
     font-size: 24px;
     line-height: 29px;
     color: #FFC700;
+    margin-bottom: 10px;
   }
   .topdiv .navigation .nav_headings .nh2 {
     font-family: font_1;
@@ -3515,6 +3547,10 @@ p {
     font-size: 36px;
     line-height: 43.88px;
     color: #FFFFFF;
+  }
+  .topdiv .navigation .nav_headings .nh2 p {
+    padding: 0;
+    margin: 0;
   }
   .topdiv .navigation .nav_button {
     margin-top: 60px;
@@ -3736,10 +3772,17 @@ p {
     height: 29px;
     width: 105px;
   }
+}
+
+@media screen and (max-width: 767px) and (max-width: 601px) {
   .Section2 div .s2right .yc3 {
+    margin-top: auto;
     margin-left: auto;
     margin-right: auto;
   }
+}
+
+@media screen and (max-width: 767px) {
   .footerSectionLgMd {
     display: none;
   }
@@ -4593,16 +4636,45 @@ p {
   .Section5 .bodydivs5 .ycard3 .undercard {
     width: 162px;
   }
+}
+
+@media screen and (max-width: 767px) and (max-width: 608px) {
+  .Section5 .bodydivs5 .ycard3 {
+    margin-bottom: auto;
+    margin-top: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
   .Section5 .bodydivs5 .ycard4 {
     width: 180px;
   }
   .Section5 .bodydivs5 .ycard4 .undercard {
     width: 162px;
   }
-  .Section5 .bodydivs5 .ycard5 {
-    margin-right: auto;
+}
+
+@media screen and (max-width: 767px) and (max-width: 608px) {
+  .Section5 .bodydivs5 .ycard4 {
+    margin-bottom: auto;
+    margin-top: auto;
+  }
+}
+
+@media screen and (max-width: 767px) and (min-width: 609px) and (max-width: 767px) {
+  .Section5 .bodydivs5 .ycard4 {
     margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .Section5 .bodydivs5 .ycard5 {
     width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
   }
   .Section5 .bodydivs5 .ycard5 .undercard {
     width: 162px;
@@ -4759,6 +4831,7 @@ p {
   .Sectionbt78 {
     height: 539px;
     width: 100%;
+    padding-right: 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -4866,6 +4939,9 @@ p {
     width: 80px;
     height: 80px;
     margin-bottom: 20px;
+  }
+  .Sectionbt78 .cards .card2 #pxx {
+    display: none;
   }
   .Sectionbt78 .cards .card2 div {
     width: 210px;

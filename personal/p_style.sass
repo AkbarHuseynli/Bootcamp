@@ -121,7 +121,7 @@ $yellow_color: #FFC700
                 justify-content: space-between
                 margin-top: 126px
                 height: 157px
-                width: 72.5%
+                width: 100%
                 .nh1
                     font-family: font_1
                     font-style: normal
@@ -136,6 +136,9 @@ $yellow_color: #FFC700
                     font-size: 48px
                     line-height: 59px
                     color: #FFFFFF
+                    p
+                        pargin: 0
+                        margin: 0
             .nav_button
                 margin-top: 40px
                 height: 50px
@@ -268,6 +271,7 @@ $yellow_color: #FFC700
                                 color: #0499DD
                                 height: 29px
                                 width: 105px
+                
     .Section3
         paddin-right: 0
         width: 100%
@@ -817,12 +821,20 @@ $yellow_color: #FFC700
                 width: 228px
                 .undercard
                     width: 210px
+                @media screen and (max-width: 1027px)
+                    margin-left: auto
+                    margin-right: auto
             .ycard5
                 .undercard
                     .pricediv
                         display: flex
                         align-items: center
                         justify-content: center
+                @media screen and ( max-width: 1243px )
+                    margin-left: auto
+                    margin-right: auto
+                    margin-bottom: auto
+                    
     .Section6
         margin: 150px 0
         height: 458px
@@ -1089,6 +1101,8 @@ $yellow_color: #FFC700
                     width: 245px
                     height: 245px
                     margin-right: 28px
+                #pxx2
+                    display: none
                 div
                     width: 395px
                     display: flex
@@ -1226,6 +1240,9 @@ $yellow_color: #FFC700
                     font-size: 36px
                     line-height: 44px
                     color: #FFFFFF
+                    p
+                        pargin: 0
+                        margin: 0
             .nav_button
                 margin-top: 70px
                 height: 50px
@@ -2069,6 +2086,8 @@ $yellow_color: #FFC700
                     width: 168px
                     height: 168px
                     margin-right: 20px
+                #pxx
+                    display: none
                 div
                     width: 269px
                     display: flex
@@ -2188,9 +2207,7 @@ $yellow_color: #FFC700
             .nav_headings
                 display: flex
                 flex-direction: column
-                justify-content: space-between
                 margin-top: 237px
-                height: 171px
                 width: 100%
                 .nh1
                     font-family: font_1
@@ -2199,6 +2216,7 @@ $yellow_color: #FFC700
                     font-size: 24px
                     line-height: 29px
                     color: #FFC700
+                    margin-bottom: 10px
                 .nh2
                     font-family: font_1
                     font-style: normal
@@ -2206,6 +2224,9 @@ $yellow_color: #FFC700
                     font-size: 36px
                     line-height: 43.88px
                     color: #FFFFFF
+                    p
+                        padding: 0
+                        margin: 0
             .nav_button
                 margin-top: 60px
                 height: 50px
@@ -2344,9 +2365,12 @@ $yellow_color: #FFC700
                                 color: #0499DD
                                 height: 29px
                                 width: 105px
-                .yc3
-                    margin-left: auto
-                    margin-right: auto
+                .yc3   
+                    @media screen and (max-width: 601px)
+                        margin-top: auto
+                        margin-left: auto
+                        margin-right: auto   
+                         
     .footerSectionLgMd
         display: none
     .footerSectionMobile
@@ -2871,14 +2895,25 @@ $yellow_color: #FFC700
                 width: 180px
                 .undercard
                     width: 162px
+                @media screen and (max-width: 608px)
+                    margin-bottom: auto
+                    margin-top: auto
             .ycard4
                 width: 180px
                 .undercard
                     width: 162px
+                @media screen and (max-width: 608px)
+                    margin-bottom: auto
+                    margin-top: auto
+                @media screen and (min-width: 609px) and (max-width: 767px)
+                    margin-left: auto
+                    margin-right: auto
+                    margin-top: auto
             .ycard5
-                margin-right: auto
-                margin-left: auto
                 width: 180px
+                margin-left: auto
+                margin-right: auto
+                margin-top: auto
                 .undercard
                     width: 162px
                     .pricediv
@@ -2970,7 +3005,7 @@ $yellow_color: #FFC700
     .Sectionbt78
         height: 539px
         width: 100%
-        
+        padding-right: 0
         display: flex
         flex-direction: column
         justify-content: space-between
@@ -3038,6 +3073,8 @@ $yellow_color: #FFC700
                     width: 80px
                     height: 80px
                     margin-bottom: 20px
+                #pxx
+                    display: none
                 div
                     width: 210px
                     display: flex
