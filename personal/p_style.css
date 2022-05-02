@@ -187,9 +187,6 @@ p {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
     margin-top: 126px;
     height: 157px;
     width: 100%;
@@ -201,6 +198,7 @@ p {
     font-size: 24px;
     line-height: 29px;
     color: #FFC700;
+    margin-bottom: 10px;
   }
   .topdiv .navigation .nav_headings .nh2 {
     font-family: font_1;
@@ -1143,7 +1141,7 @@ p {
     height: 43px;
   }
   .Section4 .s4slide .stick .ss {
-    height: 3px;
+    height: 2px;
     width: 100%;
   }
   .Section5 {
@@ -1830,7 +1828,7 @@ p {
     height: 43px;
   }
   .Sectionbt78 .stick .ss {
-    height: 3px;
+    height: 2px;
     width: 100%;
   }
 }
@@ -1952,9 +1950,6 @@ p {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
     margin-top: 303px;
     height: 127px;
     width: 100%;
@@ -1966,6 +1961,7 @@ p {
     font-size: 24px;
     line-height: 29px;
     color: #FFC700;
+    margin-bottom: 10px;
   }
   .topdiv .navigation .nav_headings .nh2 {
     font-family: font_1;
@@ -2937,7 +2933,7 @@ p {
     height: 43px;
   }
   .Section4 .s4slide .stick .ss {
-    height: 3px;
+    height: 2px;
     width: 100%;
   }
   .Section5 {
@@ -3406,7 +3402,7 @@ p {
     height: 43px;
   }
   .Sectionbt78 .stick .ss {
-    height: 3px;
+    height: 2px;
     width: 100%;
   }
 }
@@ -4500,7 +4496,7 @@ p {
     height: 43px;
   }
   .Section4 .s4slide .stick .ss {
-    height: 3px;
+    height: 2px;
     width: 100%;
   }
   .Section5 {
@@ -5007,7 +5003,7 @@ p {
     height: 43px;
   }
   .Sectionbt78 .stick .ss {
-    height: 3px;
+    height: 2px;
     width: 100%;
   }
 }
