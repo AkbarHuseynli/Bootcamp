@@ -414,7 +414,6 @@ p {
     width: 105px;
   }
   .Section3 {
-    paddin-right: 0;
     width: 100%;
     background-image: url("../images/scene9.png");
     height: 877px;
@@ -1458,7 +1457,8 @@ p {
     font-size: 18px;
     line-height: 22px;
     color: #0499DD;
-    width: 100%;
+    width: 90%;
+    margin-bottom: 20px;
   }
   .Section6 div .s6left .passport2 span .p2down {
     width: 100%;
@@ -1472,7 +1472,7 @@ p {
   .Section6 div .s6right {
     width: 32.1%;
     height: 313px;
-    margin-top: 22px;
+    margin-top: auto;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

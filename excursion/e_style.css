@@ -724,7 +724,7 @@ p {
     margin-top: 44px;
   }
   .side_divison03 .footer .footbtn {
-    width: 225px;
+    width: 100%;
     height: 40px;
     background: linear-gradient(92.71deg, #0499DD 0%, #17C1BC 100%);
     border-radius: 40px;
@@ -1159,7 +1159,6 @@ p {
     margin-top: 80px;
     width: 100%;
     height: 173px;
-    padding: 0 9%;
     background-color: #EDEDED;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2054,6 +2053,7 @@ p {
     margin-bottom: 40px;
   }
   .side2 .body .bbdiv3 {
+    margin-top: 1px;
     margin-bottom: 79px;
   }
   .side2 .body .bbdiv3 div .footerbtn .blue_heart {
