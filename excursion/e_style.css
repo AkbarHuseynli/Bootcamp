@@ -253,12 +253,36 @@ p {
     line-height: 17.07px;
     color: black;
   }
+  .division02 div .up div p:hover {
+    color: #0499DD;
+  }
   .division02 div .up div #upx {
     color: #0499DD;
   }
-  .division02 div .up img {
+  .division02 div .up .upstick {
     width: 100%;
     height: 2px;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    cursor: pointer;
+  }
+  .division02 div .up .upstick .st1 {
+    width: 100%;
+    position: absolute;
+    height: 2px;
+    z-index: -9999999;
+  }
+  .division02 div .up .upstick .st2 {
+    height: 2px;
+    width: 163px;
+  }
+  .division02 div .up .upstick:hover {
+    background-color: #0499DD;
   }
   .division02 div .down {
     width: 100%;
@@ -1538,12 +1562,36 @@ p {
     line-height: 17.07px;
     color: black;
   }
+  .division02 div .up div p:hover {
+    color: #0499DD;
+  }
   .division02 div .up div #upx {
     color: #0499DD;
   }
-  .division02 div .up img {
+  .division02 div .up .upstick {
     width: 100%;
     height: 2px;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    cursor: pointer;
+  }
+  .division02 div .up .upstick .st1 {
+    width: 100%;
+    position: absolute;
+    height: 2px;
+    z-index: -9999999;
+  }
+  .division02 div .up .upstick .st2 {
+    height: 2px;
+    width: 163px;
+  }
+  .division02 div .up .upstick:hover {
+    background-color: #0499DD;
   }
   .division02 div .down {
     width: 100%;
@@ -2913,8 +2961,36 @@ p {
     line-height: 14.63px;
     color: black;
   }
+  .division02 div .up div p:hover {
+    color: #0499DD;
+  }
   .division02 div .up div #upx {
     color: #0499DD;
+  }
+  .division02 div .up .upstick {
+    width: 100%;
+    height: 2px;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    cursor: pointer;
+  }
+  .division02 div .up .upstick .st1 {
+    width: 100%;
+    position: absolute;
+    height: 2px;
+    z-index: -9999999;
+  }
+  .division02 div .up .upstick .st2 {
+    height: 2px;
+    width: 119px;
+  }
+  .division02 div .up .upstick:hover {
+    background-color: #0499DD;
   }
   .division02 div .up img {
     width: 100%;

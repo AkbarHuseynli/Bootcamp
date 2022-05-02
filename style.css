@@ -1033,6 +1033,7 @@ p {
 .Section09 {
   height: 43px;
   padding: 0 9%;
+  padding-right: 0;
   width: 100%;
   margin-top: 40px;
   -webkit-box-sizing: border-box;
@@ -1058,8 +1059,33 @@ p {
   margin-right: 52px;
 }
 
-.Section09 #slider01 {
-  padding-bottom: 2px;
+.Section09 .upstick {
+  width: 100%;
+  height: 2px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  cursor: pointer;
+}
+
+.Section09 .upstick .st1 {
+  width: 100%;
+  position: absolute;
+  height: 2px;
+  z-index: -9999999;
+}
+
+.Section09 .upstick .st2 {
+  height: 2px;
+  width: 170px;
+}
+
+.Section09 .upstick:hover {
+  background-color: #0499DD;
 }
 
 .Section10 {
