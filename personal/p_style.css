@@ -91,7 +91,7 @@ p {
   src: url(../fonts/MarkoOne-Regular.ttf);
 }
 
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 992px) {
   .padding-x {
     padding: 0 9%;
   }
@@ -990,9 +990,6 @@ p {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
   }
   .Section4 .s4text .s1 {
     font-family: font_1;
@@ -1002,6 +999,7 @@ p {
     line-height: 29px;
     color: #0499DD;
     width: 100%;
+    margin-bottom: 90px;
   }
   .Section4 .s4text .s4body {
     width: 100%;
@@ -1012,10 +1010,7 @@ p {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    height: 310px;
+    height: 331px;
   }
   .Section4 .s4text .s4body div {
     width: 100%;
@@ -1044,8 +1039,16 @@ p {
     margin-left: 38px;
     font-weight: 700;
   }
+  .Section4 .s4text .s4body .middles4 {
+    margin: 40px 0;
+  }
+  .Section4 .s4text .s4body .s402 {
+    margin: 21px 0;
+  }
+  .Section4 .s4text .s4body .s405 {
+    margin-top: 21px;
+  }
   .Section4 .s4slide {
-    margin-top: 60px;
     width: 49.4%;
     height: 653px;
     display: -webkit-box;
@@ -1061,7 +1064,7 @@ p {
     overflow: hidden;
   }
   .Section4 .s4slide .imgs {
-    width: 100%;
+    width: 844px;
     height: 653px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1087,7 +1090,7 @@ p {
     color: #FFC700;
   }
   .Section4 .s4slide .imgs .d1 {
-    width: 59.9%;
+    width: 413px;
     height: 570px;
   }
   .Section4 .s4slide .imgs .d1 .i3 {
@@ -1103,7 +1106,7 @@ p {
     left: 23px;
   }
   .Section4 .s4slide .imgs .d2 {
-    width: 37.4%;
+    width: 413px;
     height: 570px;
   }
   .Section4 .s4slide .imgs .d2 .n2 {
@@ -1285,14 +1288,14 @@ p {
   }
 }
 
-@media screen and (min-width: 991px) and (max-width: 1027px) {
+@media screen and (min-width: 992px) and (max-width: 1027px) {
   .Section5 .bodydivs5 .ycard4 {
     margin-left: auto;
     margin-right: auto;
   }
 }
 
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 992px) {
   .Section5 .bodydivs5 .ycard5 .undercard .pricediv {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1306,7 +1309,7 @@ p {
   }
 }
 
-@media screen and (min-width: 991px) and (max-width: 1243px) {
+@media screen and (min-width: 992px) and (max-width: 1243px) {
   .Section5 .bodydivs5 .ycard5 {
     margin-left: auto;
     margin-right: auto;
@@ -1314,7 +1317,7 @@ p {
   }
 }
 
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 992px) {
   .Section6 {
     margin: 150px 0;
     height: 458px;
@@ -2755,7 +2758,7 @@ p {
     height: 50px;
   }
   .Section4 {
-    heigth: 1163px;
+    height: 1163px;
     padding-right: 0;
     margin-top: 150px;
     width: 100%;
@@ -2836,8 +2839,17 @@ p {
     margin-left: 38px;
     font-weight: 700;
   }
+  .Section4 .s4text .s4body .middles4 {
+    margin: 40px 0;
+  }
+  .Section4 .s4text .s4body .s402 {
+    margin: 20px 0;
+  }
+  .Section4 .s4text .s4body .s405 {
+    margin-top: 20px;
+  }
   .Section4 .s4slide {
-    margin-top: 60px;
+    margin-top: 81px;
     width: 100%;
     height: 653px;
     display: -webkit-box;
@@ -2853,7 +2865,7 @@ p {
     overflow: hidden;
   }
   .Section4 .s4slide .imgs {
-    width: 100%;
+    width: 844px;
     height: 653px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2879,7 +2891,7 @@ p {
     color: #FFC700;
   }
   .Section4 .s4slide .imgs .d1 {
-    width: 59.9%;
+    width: 413px;
     height: 570px;
   }
   .Section4 .s4slide .imgs .d1 .i3 {
@@ -2895,7 +2907,7 @@ p {
     left: 23px;
   }
   .Section4 .s4slide .imgs .d2 {
-    width: 37.4%;
+    width: 413px;
     height: 570px;
   }
   .Section4 .s4slide .imgs .d2 .n2 {
@@ -2910,6 +2922,7 @@ p {
     height: 100%;
     position: relative;
     z-index: 2;
+    border-radius: 10px;
   }
   .Section4 .s4slide .stick {
     height: 43px;
@@ -2936,6 +2949,15 @@ p {
     height: 2px;
     width: 100%;
   }
+}
+
+@media screen and (max-width: 991px) and (min-width: 767px) and (min-width: 929px) {
+  .Section4 .s4slide .stick {
+    margin-right: 5%;
+  }
+}
+
+@media screen and (max-width: 991px) and (min-width: 767px) {
   .Section5 {
     margin-top: 150px;
     width: 100%;
