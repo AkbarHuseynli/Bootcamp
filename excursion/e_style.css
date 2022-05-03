@@ -88,7 +88,7 @@ p {
 
 @media screen and (min-width: 992px) {
   .padding-x {
-    padding: 0 9%;
+    padding: 0 11.1%;
   }
   .topdiv {
     width: 100%;
@@ -1375,7 +1375,7 @@ p {
 
 @media screen and (max-width: 991px) and (min-width: 767px) {
   .padding-x {
-    padding: 0 9%;
+    padding: 0 10.2%;
   }
   .topdiv {
     width: 100%;
